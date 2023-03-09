@@ -16,15 +16,13 @@ const Home: NextPage = () => {
       <LayoutHorizontal>
         <Navbar></Navbar>
         <Content layout='horizontal'>
-          <div>
-            <img src="/images/BP_1.jpeg"></img>
-            <p className='text-white'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, quaerat! Veritatis cumque id ipsam voluptatum nostrum deserunt autem debitis ad quae odit! Expedita iste quos tempore reiciendis. Minus, ipsam error.</p>
+          <div className='h-screen max-w-xlg'>
+            <img className='h-screen w-auto' src="/images/BP_1.jpeg"></img>
           </div>
-          <div>
-            <img src="/images/BP_3.jpeg"></img>
-            <p className='text-white'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, quaerat! Veritatis cumque id ipsam voluptatum nostrum deserunt autem debitis ad quae odit! Expedita iste quos tempore reiciendis. Minus, ipsam error.</p>
+          <div className='h-screen max-w-lg '>
+            <img src="/images/BP_2.jpeg"></img>
           </div>
-          <div>
+          <div className='h-screen max-w-lg'>
             <img src="/images/BP_4.jpeg"></img>
             <p className='text-white'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, quaerat! Veritatis cumque id ipsam voluptatum nostrum deserunt autem debitis ad quae odit! Expedita iste quos tempore reiciendis. Minus, ipsam error.</p>
           </div>
