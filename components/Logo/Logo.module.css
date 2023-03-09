@@ -1,5 +1,12 @@
 .LogoComponent {
-    background: green;
     height: 100%;
-    width: 250px;
+    width: 300px;
+    border-right: 2px solid theme(colors.blue);
+    display: flex;
+    align-items: center;
+    img {
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+    }
 }

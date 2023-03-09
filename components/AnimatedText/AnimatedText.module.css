@@ -4,8 +4,9 @@
   display: flex;
   overflow: hidden;
   user-select: none;
-  font-family: 'pilot';
+  font-family: 'Pilot';
   gap: var(--gap);
+  color: theme(colors.green);
   .content {
     flex-shrink: 0;
     display: flex;
@@ -17,6 +18,10 @@
     
     max-width: min-content;
     text-transform: uppercase;
+    > li {
+      display: flex;
+      align-items: center;
+    }
   }
   @keyframes scroll {
     from {

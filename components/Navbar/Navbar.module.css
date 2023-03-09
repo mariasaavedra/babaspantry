@@ -1,9 +1,10 @@
 .NavbarComponent {
-    background: red;
+    background: #000;
     width: 100%;
     padding: 1rem;
-    height: 150px;
+    height: 125px;
     display: flex;
     justify-content: space-between;
     overflow-x: hidden;
+    border-bottom: 2px solid theme(colors.blue);
 }

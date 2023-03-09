@@ -1,13 +1,15 @@
+import { ParentComponentProps } from '../../interfaces/ParentComponentProps';
 import styles from './Content.module.css';
 
 
-export interface ContentProps {
+export interface ContentProps extends ParentComponentProps {
+    layout: 'horizontal' | 'vertical'
 }
 
 export default function Content(props: ContentProps) {
     return (
-        <div className={styles.ContentComponent}>
-            Hello
+        <div className={styles.ContentComponent + ' ' + styles.horizontal}>
+            {props.children}
         </div>
     );
 }
