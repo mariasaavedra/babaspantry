@@ -1,0 +1,29 @@
+.AnimatedTextComponent {
+  max-width: 100%;
+  --gap: 1rem;
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  font-family: 'pilot';
+  gap: var(--gap);
+  .content {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: var(--gap);
+    animation-name: scroll;
+    animation: scroll 10s linear infinite;
+    font-size: 7rem;
+    
+    max-width: min-content;
+    text-transform: uppercase;
+  }
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
+  }
+}
