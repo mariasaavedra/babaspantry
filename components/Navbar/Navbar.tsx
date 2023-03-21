@@ -9,7 +9,7 @@ export interface NavbarProps {
 
 export default function Navbar(props: NavbarProps) {
     return (
-        <div className={styles.NavbarComponent}>
+        <div className={styles.NavbarComponent + ' max-h-[80px] md:max-h-[150px]'}>
             <Logo></Logo>
             <AnimatedText></AnimatedText>
             <Menu></Menu>
