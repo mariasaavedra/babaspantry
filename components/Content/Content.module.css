@@ -1,18 +1,14 @@
 .ContentComponent {
-  background-color: black;
+  background-color: theme(colors.green);
   height: 100%;
   overflow-y: hidden;
   width: 100%;
-  color: white;
   &.horizontal {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
-  
-    
     > div {
         flex: 0 0 auto;
-        margin: 1rem;
     }
   }
 }

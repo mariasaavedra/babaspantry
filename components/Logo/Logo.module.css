@@ -1,12 +1,14 @@
 .LogoComponent {
     border-right: 2px solid theme(colors.blue);
     margin: -20px 0;
+    overflow: hidden;
     display: flex;
-    min-width: 100px;
+    min-width: 130px;
     align-items: center;
-    padding: 1rem;
+    padding: 0;
     img {
-        width: 100%;
-        height: auto;
+        margin: 0 auto;
+        padding: 5px;
+        width: auto;
     }
 }

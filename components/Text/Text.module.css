@@ -1,0 +1,8 @@
+.TextComponent {
+    padding: 2rem;
+    line-height: 2rem;
+    font-size: 1.25rem;
+    font-family: 'Futura';
+    font-weight: 100;
+    color: #000;
+}
