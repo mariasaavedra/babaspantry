@@ -12,7 +12,9 @@ module.exports = {
       'green': '#86ac53',
     },
     extend: {
-
+      fontFamily: {
+        'header': ['Pilot'],
+      },
     },
   },
   plugins: [],

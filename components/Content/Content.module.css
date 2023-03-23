@@ -1,5 +1,8 @@
 .ContentComponent {
-  background-color: theme(colors.green);
+  /* background-color: #f65aa0; */
+  /* background-color: #fdb833; */
+  /* background-color: #b298dc; */
+  background-color: #cdb4db; /* Craft paper */
   height: 100%;
   overflow-y: hidden;
   width: 100%;
@@ -8,7 +11,7 @@
     flex-wrap: nowrap;
     overflow-x: auto;
     > div {
-        flex: 0 0 auto;
+      flex: 0 0 auto;
     }
   }
 }

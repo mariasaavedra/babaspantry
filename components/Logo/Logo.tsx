@@ -5,7 +5,7 @@ export interface LogoProps {}
 
 export default function Logo(props: LogoProps) {
   return (
-    <div className={styles.LogoComponent + " sm:w-[150px]  md:w-[800px]"}>
+    <div className={styles.LogoComponent + " sm:w-[150px]  md:w-[350px]"}>
       <img
         src="/images/logo.png"
         className="animate__animated animate__flash animate__infinite animate__slower md:max-h-20 md:p-4"

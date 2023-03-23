@@ -6,7 +6,7 @@
   user-select: none;
   font-family: 'Pilot';
   gap: var(--gap);
-  color: theme(colors.green);
+  color: theme(colors.blue);
   @apply text-8xl md:text-8xl;
   .content {
     flex-shrink: 0;
