@@ -1,8 +1,11 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import AnimatedButton from "../components/AnimatedButton/AnimatedButton";
+import Arabic from "../components/Arabic/Arabic";
 import Content from "../components/Content/Content";
 import LayoutHorizontal from "../components/LayoutHorizontal/LayoutHorizontal";
 import Navbar from "../components/Navbar/Navbar";
+import Sidebar from "../components/Sidebar/Sidebar";
 import Text from "../components/Text/Text";
 const Home: NextPage = () => {
   return (
@@ -18,14 +21,20 @@ const Home: NextPage = () => {
 
       <LayoutHorizontal>
         <Navbar></Navbar>
+
         <Content layout="horizontal">
-          <div className="h-screen max-w-xlg">
-            <img className="h-screen w-auto" src="/images/BP_1.jpeg"></img>
+          <Sidebar></Sidebar>
+          <div className="relative h-screen max-w-xlg">
+            <div className="absolute top-1/3 left-3/4 w-full max-w-[250px] top-0 z-[9999]">
+              <AnimatedButton>MENU</AnimatedButton>
+            </div>
+            <img className=" h-screen w-auto" src="/images/BP_1.jpeg"></img>
           </div>
-          <div className="h-screen max-w-xlg">
+          <div className="relative h-screen max-w-xlg">
             <img className="h-screen w-auto" src="/images/BP_9.webp"></img>
+            <Arabic></Arabic>
           </div>
-          <div className="h-screen max-w-lg ">
+          <div className="relative h-screen max-w-lg ">
             <Text>
               <h1 className="text-5xl py-2 font-header">
                 Welcome to Baba's Pantry,
@@ -41,12 +50,16 @@ const Home: NextPage = () => {
               expression of the feeling of being at home.
             </Text>
           </div>
-          <div className="h-screen">
+          <div className="relative h-screen">
+            <div className="absolute w-full max-w-[250px] h-screen top-[50%] left-[-100px] z-[9999]">
+              <AnimatedButton>MENU</AnimatedButton>
+            </div>
             <img className="h-auto w-auto" src="/images/BP_7.webp"></img>
+            <Arabic></Arabic>
           </div>
 
-          <div className="h-screen max-w-[90vw]">
-            <div className="h-[50%] max-w-[400px]">
+          <div className="relative h-screen max-w-[90vw]">
+            <div className="relative h-[50%] max-w-[400px]">
               <Text>
                 Kansas City's own Baba's Pantry was named one of America's best
                 new restaurants by Bon Appetit Magazine.

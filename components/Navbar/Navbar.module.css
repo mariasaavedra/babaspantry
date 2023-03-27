@@ -4,7 +4,8 @@
     display: flex;
     justify-content: space-between;
     overflow-x: hidden;
-    border-bottom: 2px solid theme(colors.blue);
+    border-bottom: 3px solid theme(colors.blue);
     overflow: hidden;
     min-height: 100px;
+    z-index: 100;
 }

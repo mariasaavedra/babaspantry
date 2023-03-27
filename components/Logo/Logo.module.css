@@ -1,5 +1,5 @@
 .LogoComponent {
-    border-right: 2px solid theme(colors.blue);
+    border-right: 3px solid theme(colors.blue);
     margin: -20px 0;
     overflow: hidden;
     display: flex;
