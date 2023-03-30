@@ -1,12 +1,15 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import { useState } from "react";
 import AnimatedButton from "../components/AnimatedButton/AnimatedButton";
 import Arabic from "../components/Arabic/Arabic";
 import Content from "../components/Content/Content";
+import FullScreenMenu from "../components/FullScreenMenu/FullScreenMenu";
 import LayoutHorizontal from "../components/LayoutHorizontal/LayoutHorizontal";
 import Navbar from "../components/Navbar/Navbar";
 import Sidebar from "../components/Sidebar/Sidebar";
 import Text from "../components/Text/Text";
+
 const Home: NextPage = () => {
   return (
     <div className="">
@@ -23,10 +26,11 @@ const Home: NextPage = () => {
         <Navbar></Navbar>
 
         <Content layout="horizontal">
+
           <Sidebar></Sidebar>
           <div className="relative h-screen max-w-xlg">
             <div className="absolute top-1/3 left-3/4 w-full max-w-[250px] top-0 z-[9999]">
-              <AnimatedButton>MENU</AnimatedButton>
+              {/* <AnimatedButton>MENU</AnimatedButton> */}
             </div>
             <img className=" h-screen w-auto" src="/images/BP_1.jpeg"></img>
           </div>
@@ -52,7 +56,7 @@ const Home: NextPage = () => {
           </div>
           <div className="relative h-screen">
             <div className="absolute w-full max-w-[250px] h-screen top-[50%] left-[-100px] z-[9999]">
-              <AnimatedButton>MENU</AnimatedButton>
+              {/* <AnimatedButton>MENU</AnimatedButton> */}
             </div>
             <img className="h-auto w-auto" src="/images/BP_7.webp"></img>
             <Arabic></Arabic>
@@ -70,7 +74,22 @@ const Home: NextPage = () => {
               src="/images/BP_5.jpeg"
             ></img>
           </div>
-          <div className="h-screen max-w-lg "></div>
+          <div className="h-screen max-w-lg pr-[100px]">
+            <Text>
+              <h1 className="font-header text-7xl">Contact Us</h1>
+
+              <h1 className="font-header text-3xl">Location</h1>
+              <p> 1019 E 63rd St, Kansas City, MO 64110</p>
+
+              <h1 className="font-header text-3xl">Hours</h1>
+              <p> Monday - Saturday 11AM–7:00PM</p>
+              <p>Sunday Closed</p>
+
+              <h1 className="font-header text-3xl">Phone</h1>
+              <p>(816) 702-0045</p>
+            </Text>
+          </div>
+         
         </Content>
       </LayoutHorizontal>
     </div>
