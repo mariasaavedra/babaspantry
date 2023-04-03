@@ -21,6 +21,8 @@
       
       max-width: min-content;
       text-transform: uppercase;
+      -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
       
       > li {
         display: flex;

@@ -7,7 +7,7 @@ export interface MenuProps {
 export default function Menu(props: MenuProps) {
     return (
         <div className={styles.MenuComponent}>
-            <img src="/images/menu.png"></img>
+            <img className="animate__animated animate__shakeY" src="/images/menu.png"></img>
         </div>
     );
 }

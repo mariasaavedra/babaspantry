@@ -15,6 +15,8 @@
     gap: var(--gap);
     animation-name: scroll;
     animation: scroll 20s linear infinite;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
     
     max-width: min-content;
     text-transform: uppercase;

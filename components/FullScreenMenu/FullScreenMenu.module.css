@@ -1,19 +1,23 @@
 .FullScreenMenuComponent {
-    z-index: 999;
-    background: rgba(205, 180, 219, 0.8);
-    height: 100vh;
-    width: 100vw;
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    li {
-        &:hover {
-            color: theme(colors.blue);
-            cursor: pointer;
-            text-decoration-line: underline;
-        }
+  z-index: 999;
+  background: rgba(205, 180, 219, 0.8);
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: theme(colors.blue);
+  li {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    &:hover {
+      color: #000;
+      cursor: pointer;
+      text-decoration-line: underline;
+
     }
+  }
 }

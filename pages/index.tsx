@@ -62,6 +62,8 @@ const Home: NextPage = () => {
             <Arabic></Arabic>
           </div>
 
+          
+
           <div className="relative h-screen max-w-[90vw]">
             <div className="relative h-[50%] max-w-[400px]">
               <Text>
@@ -74,6 +76,12 @@ const Home: NextPage = () => {
               src="/images/BP_5.jpeg"
             ></img>
           </div>
+
+          <div className="relative max-w-3xl">
+            <img src="/images/BP_4.jpeg"></img>
+          </div>
+
+          
           <div className="h-screen max-w-lg pr-[100px]">
             <Text>
               <h1 className="font-header text-7xl">Contact Us</h1>
