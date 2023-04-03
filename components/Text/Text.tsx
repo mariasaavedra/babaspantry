@@ -1,7 +1,8 @@
+import { MaybeParentComponentProps } from '../../interfaces/ParentComponentProps';
 import styles from './Text.module.css';
 
 
-export interface TextProps {
+export interface TextProps extends MaybeParentComponentProps {
 }
 
 export default function Text(props: TextProps) {
