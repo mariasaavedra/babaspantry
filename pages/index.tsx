@@ -26,12 +26,8 @@ const Home: NextPage = () => {
         <Navbar></Navbar>
 
         <Content layout="horizontal">
-
           <Sidebar></Sidebar>
           <div className="relative h-screen max-w-xlg">
-            <div className="absolute top-1/3 left-3/4 w-full max-w-[250px] top-0 z-[9999]">
-              {/* <AnimatedButton>MENU</AnimatedButton> */}
-            </div>
             <img className=" h-screen w-auto" src="/images/BP_1.jpeg"></img>
           </div>
           <div className="relative h-screen max-w-xlg">
@@ -55,14 +51,9 @@ const Home: NextPage = () => {
             </Text>
           </div>
           <div className="relative h-screen">
-            <div className="absolute w-full max-w-[250px] h-screen top-[50%] left-[-100px] z-[9999]">
-              {/* <AnimatedButton>MENU</AnimatedButton> */}
-            </div>
             <img className="h-auto w-auto" src="/images/BP_7.webp"></img>
             <Arabic></Arabic>
           </div>
-
-          
 
           <div className="relative h-screen max-w-[90vw]">
             <div className="relative h-[50%] max-w-[400px]">
@@ -70,6 +61,9 @@ const Home: NextPage = () => {
                 Kansas City's own Baba's Pantry was named one of America's best
                 new restaurants by Bon Appetit Magazine.
               </Text>
+              <div className="absolute w-full max-w-[250px] h-screen top-[30%] right-[-100px] z-[1]">
+                <AnimatedButton><span className="text-xl">Top 10 <br/> Best New Restaurants <br/> in America</span></AnimatedButton>
+              </div>
             </div>
             <img
               className="h-[50%] w-auto opacity-0"
@@ -81,7 +75,6 @@ const Home: NextPage = () => {
             <img src="/images/BP_4.jpeg"></img>
           </div>
 
-          
           <div className="h-screen max-w-lg pr-[100px]">
             <Text>
               <h1 className="font-header text-7xl">Contact Us</h1>
@@ -97,7 +90,6 @@ const Home: NextPage = () => {
               <p>(816) 702-0045</p>
             </Text>
           </div>
-         
         </Content>
       </LayoutHorizontal>
     </div>

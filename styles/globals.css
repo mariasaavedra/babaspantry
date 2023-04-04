@@ -10,6 +10,13 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Rakkas";
+  src: url("/rakkas-regular-webfont.woff2") format("woff2"),
+    url("/rakkas-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 p {
   font-size: 1rem;
   font-family: "Futura";

@@ -4,7 +4,7 @@
     display: flex;
     overflow: hidden;
     user-select: none;
-    font-family: 'Pilot';
+    font-family: 'Rakkas';
     margin: 1rem;
     line-height: 0;
     gap: var(--gap);

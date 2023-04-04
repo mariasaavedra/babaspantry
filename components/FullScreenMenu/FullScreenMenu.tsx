@@ -26,12 +26,13 @@ export default function FullScreenMenu(props: FullScreenMenuProps) {
           </svg>
         </div>
         <div className="flex-grow flex justify-center items-center">
-          <ul className="animate__animated  animate__flash text-8xl flex flex-col items-center">
+          <ul className="animate__animated  text-6xl flex flex-col items-center">
             <li className="py-4 font-header">ABOUT</li>
             <li className="py-4 font-header">MENU</li>
             <li className="py-4 font-header">CATERING</li>
             <li className="py-4 font-header">MERCH</li>
             <li className="py-4 font-header">SHOP PANTRY</li>
+            <li className="py-4 font-header">PRESS</li>
             <li className="py-4 font-header">CONTACT</li>
           </ul>
         </div>
