@@ -23,7 +23,7 @@
   white-space: nowrap;
   letter-spacing: 0.25rem;
   overflow: hidden;
-  padding: 2vmin 0;
+  padding: 4px 0;
   min-width: 100%;
   user-select: none;
   background:  #cdb4db;
@@ -39,7 +39,7 @@
     z-index: 999;
   }
   &.right {
-    left: calc(100vw - 50px);
+    left: calc(100vw - 52px);
     bottom: -6vmin;
     transform: rotate(-0.25turn);
     transform-origin: 0 0;

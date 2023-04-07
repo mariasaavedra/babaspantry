@@ -19,18 +19,18 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
   const bottomRef = useRef("#bottom");
   const marquee = (
     <>
-      <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-      <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-      <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-      <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-      <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-      <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-      <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-      <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-      <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-      <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-      <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-      <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
+      <div className="inline font-medium text-5xl font-header">Sandwiches Coffee Tea Tea Sweets</div>
+      <div className="inline font-medium text-5xl font-header">Sandwiches Coffee Tea Tea Sweets</div>
+      <div className="inline font-medium text-5xl font-header">Sandwiches Coffee Tea Tea Sweets</div>
+      <div className="inline font-medium text-5xl font-header">Sandwiches Coffee Tea Tea Sweets</div>
+      <div className="inline font-medium text-5xl font-header">Sandwiches Coffee Tea Tea Sweets</div>
+      <div className="inline font-medium text-5xl font-header">Sandwiches Coffee Tea Tea Sweets</div>
+      <div className="inline font-medium text-5xl font-header">Sandwiches Coffee Tea Tea Sweets</div>
+      <div className="inline font-medium text-5xl font-header">Sandwiches Coffee Tea Tea Sweets</div>
+      <div className="inline font-medium text-5xl font-header">Sandwiches Coffee Tea Tea Sweets</div>
+      <div className="inline font-medium text-5xl font-header">Sandwiches Coffee Tea Tea Sweets</div>
+      <div className="inline font-medium text-5xl font-header">Sandwiches Coffee Tea Tea Sweets</div>
+      <div className="inline font-medium text-5xl font-header">Sandwiches Coffee Tea Tea Sweets</div>
     </>
   );
 
@@ -75,7 +75,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
 
   return (
     <div>
-      <div id="section" className="flex flex-nowrap min-w-[4000px] p-12 overflow-auto">
+      <div id="section" className="flex flex-nowrap min-w-[4000px] p-8 overflow-x-auto overflow-y-hidden">
       <LayoutHorizontal>
         {/* <Navbar></Navbar> */}
         
