@@ -2,6 +2,11 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import styles from "./AnimatedMarquee.module.css";
+import Content from "../Content/Content";
+import Text from "../Text/Text";
+import LayoutHorizontal from "../LayoutHorizontal/LayoutHorizontal";
+import AnimatedButton from "../AnimatedButton/AnimatedButton";
+import Arabic from "../Arabic/Arabic";
 
 export interface AnimatedMarqueeProps {}
 
@@ -12,6 +17,22 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
   const rightRef = useRef("#right");
   const leftRef = useRef("#left");
   const bottomRef = useRef("#bottom");
+  const marquee = (
+    <>
+      <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
+      <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
+      <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
+      <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
+      <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
+      <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
+      <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
+      <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
+      <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
+      <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
+      <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
+      <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
+    </>
+  );
 
   useEffect(() => {
     const top = topRef.current;
@@ -33,13 +54,12 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
 
     const config = {
       scrollTrigger: {
-        trigger: body.current,
+        trigger: "#section",
         start: 0,
         horizontal: true,
         markers: true,
         repeat: -1,
-        yoyo: true,
-        toggleActions: "restart restart restart restart",
+        scrub: true,
       },
     };
     const t1 = gsap.timeline(config);
@@ -54,65 +74,23 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
   });
 
   return (
-    <div id="container" className={styles.AnimatedMarqueeComponent}>
-      <div id="top" className={styles.marquee + " " + styles.top}>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-      </div>
+    <div>
+      <div id="container" className={styles.AnimatedMarqueeComponent}>
+        <div id="top" className={styles.marquee + " " + styles.top}>
+          {marquee}
+        </div>
 
-      <div id="right" className={styles.marquee + " " + styles.right}>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-      </div>
+        <div id="right" className={styles.marquee + " " + styles.right}>
+          {marquee}
+        </div>
 
-      <div id="bottom" className={styles.marquee + " " + styles.bottom}>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-      </div>
+        <div id="bottom" className={styles.marquee + " " + styles.bottom}>
+          {marquee}
+        </div>
 
-      <div id="left" className={styles.marquee + " " + styles.left}>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
-        <div className="inline">Sandwiches Coffee Tea Tea Sweets</div>
+        <div id="left" className={styles.marquee + " " + styles.left}>
+          {marquee}
+        </div>
       </div>
     </div>
   );
