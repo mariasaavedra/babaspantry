@@ -9,6 +9,7 @@ import LayoutHorizontal from "../components/LayoutHorizontal/LayoutHorizontal";
 import Navbar from "../components/Navbar/Navbar";
 import Sidebar from "../components/Sidebar/Sidebar";
 import Text from "../components/Text/Text";
+import AnimatedMarquee from "../components/AnimatedMarquee/AnimatedMarquee";
 
 const Home: NextPage = () => {
   return (
@@ -23,10 +24,10 @@ const Home: NextPage = () => {
       </Head>
 
       <LayoutHorizontal>
-        <Navbar></Navbar>
-
+        {/* <Navbar></Navbar> */}
+        
         <Content layout="horizontal">
-          <Sidebar></Sidebar>
+          {/* <Sidebar></Sidebar> */}
           <div className="relative h-screen max-w-xlg">
             <img className=" h-screen w-auto" src="/images/BP_1.jpeg"></img>
           </div>
@@ -91,6 +92,7 @@ const Home: NextPage = () => {
             </Text>
           </div>
         </Content>
+        <AnimatedMarquee></AnimatedMarquee>
       </LayoutHorizontal>
     </div>
   );

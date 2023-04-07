@@ -8,7 +8,7 @@ export interface ContentProps extends ParentComponentProps {
 
 export default function Content(props: ContentProps) {
     return (
-        <div className={styles.ContentComponent + ' ' + styles.horizontal}>
+        <div id="content" className={styles.ContentComponent + ' ' + styles.horizontal}>
             {props.children}
         </div>
     );
