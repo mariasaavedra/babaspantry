@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --color-background: #151818;
+  --color-text: whitesmoke;
+  --color-chill: #ecf232;
+  --marquee-font-size: min(max(12px, 2vw), 22px);
+  --headline-font-size: min(max(40px, 6vw), 70px);
+  --paragraph-font-size: min(max(16px, 4vw), 22px);
+  --section-heading-font-size: min(max(30px, 4vw), 50px);
+  --duration: 300ms;
+  --ease: cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
 @font-face {
   font-family: "Pilot";
   src: url("/Pilot-SemiBold.woff2") format("woff2"),
