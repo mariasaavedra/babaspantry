@@ -6,7 +6,7 @@ export interface ArabicProps {
 
 export default function Arabic(props: ArabicProps) {
     return (
-        <div className={styles.ArabicComponent}>
+        <div className={styles.ArabicComponent + ' font-arabic'}>
             وجبات خفيفة
         </div>
     );

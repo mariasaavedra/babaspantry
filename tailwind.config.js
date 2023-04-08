@@ -1,22 +1,23 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx}',
-    './components/**/*.{js,ts,jsx,tsx}',
-    './app/**/*.{js,ts,jsx,tsx}',
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+    "./app/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     colors: {
-      'blue': '#1c7fb2',
-      'orange': '#fc993e',
-      'green': '#86ac53',
+      blue: "#1c7fb2",
+      orange: "#fc993e",
+      green: "#86ac53",
+      purple: "#cdb4db",
     },
     extend: {
       fontFamily: {
-        'header': ['Pilot'],
-        'arabic': ['ArefRuqaa']
+        header: ["Pilot"],
+        arabic: ["ArefRuqaa"],
       },
     },
   },
   plugins: [],
-}
+};
