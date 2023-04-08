@@ -16,14 +16,12 @@
 }
 
 .marquee {
-  font-size: 12rem;
   position: absolute;
-  font-size: var(--marquee-font-size);
   line-height: 1;
   white-space: nowrap;
   letter-spacing: 0;
   overflow: hidden;
-  padding: 14px;
+  padding: 12px;
   min-width: 100%;
   user-select: none;
   /* background:  #cdb4db; */

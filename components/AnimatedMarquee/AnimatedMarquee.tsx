@@ -583,11 +583,26 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
         className="flex flex-nowrap min-w-[4000px] p-12 overflow-x-auto overflow-y-hidden"
       >
         <LayoutHorizontal>
-          <div className="bg-[#dbcaea] p-2 pr-4 top-0 left-0 z-[9999] fixed">
+          {/* Logo */}
+          <div className="p-2 z-[9999] bg-[#dbcaea] rounded-[50%] h-[200px] w-[200px] fixed top-[-80px] left-0 right-0 text-center mx-auto">
             <img
               src="/images/logo-black.svg"
-              width={90}
-              className="animate__animated animate__infinite animate__delay-4s  animate__slower md:max-h-20"
+              width={130}
+              className="mx-auto text-center animate__animated animate__flash animate__infinite animate__delay-5s  animate__slower md:max-h-20 top-[10px] ml-7 fixed z-10"
+            ></img>
+          </div>
+
+          {/* Menu */}
+          <div
+            className={
+              styles.MenuComponent +
+              " fixed top-[-5px] right-[-5px] z-10 p-4 rounded-full  bg-[#dbcaea]"
+            }
+          >
+            <img
+              width={70}
+              className="animate__animated animate__shakeY"
+              src="/images/menu.png"
             ></img>
           </div>
 
