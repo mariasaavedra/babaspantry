@@ -6,7 +6,7 @@
   left: 0;
   bottom: 0;
   width: 100vw;
-  height: 100vh; 
+  height: 100vh;
   font-weight: 700;
   overflow-y: hidden;
   overflow-x: scroll;
@@ -55,7 +55,7 @@
     bottom: -1px;
     right: 0;
     transform: rotate(0.5turn);
-  }    
+  }
 }
 .MenuComponent {
   display: flex;
@@ -71,4 +71,15 @@
   100% {
     -webkit-transform: rotate(360deg);
   }
+}
+
+.clipPath {
+  transform: scale(1.5, 1.5);
+}
+
+.shape {
+  clip-path: url(#myClip);
+  /* background: red; */
+  top: -50px;
+  background: linear-gradient(233deg, #cdb4db, #cdc8ec, #cdb4db);
 }

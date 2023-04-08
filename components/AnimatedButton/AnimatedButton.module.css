@@ -18,6 +18,8 @@
     max-width: 200px;
     fill: theme(colors.green);
     stroke: #000;
+    stroke-width: 1px;
+    box-border: 
     cursor: pointer;
     z-index: -1;
   }
