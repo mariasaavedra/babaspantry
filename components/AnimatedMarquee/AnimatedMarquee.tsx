@@ -20,79 +20,260 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
   const marquee = (
     <>
       <div className="inline font-medium  text-4xl">
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-header">Sandwiches</span>
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-arabic">والحلويات </span>
-        <span><img className="inline w-[25px] px-1" src="/images/SVG/purple-diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-header"> Coffee</span>
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-arabic"> والقهو</span>
-        <span><img className="inline w-[25px] px-1" src="/images/SVG/purple-diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-header"> Tea</span>
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-arabic"> السندويشات</span>
-        <span><img className="inline w-[25px] px-1" src="/images/SVG/purple-diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-header"> Sweets</span>
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-arabic"> والشاي</span>
-        <span><img className="inline w-[25px] px-1" src="/images/SVG/purple-diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-header">Sandwiches</span>
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-arabic">والحلويات </span>
-        <span><img className="inline w-[25px] px-1" src="/images/SVG/purple-diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-header"> Coffee</span>
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
+
         <span className="font-arabic"> والقهو</span>
-        <span><img className="inline w-[25px] px-1" src="/images/SVG/purple-diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-header"> Tea</span>
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-arabic"> السندويشات</span>
-        <span><img className="inline w-[25px] px-1" src="/images/SVG/purple-diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-header"> Sweets</span>
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-arabic"> والشاي</span>
-        <span><img className="inline w-[25px] px-1" src="/images/SVG/purple-diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-header">Sandwiches</span>
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-arabic">والحلويات </span>
-        <span><img className="inline w-[25px] px-1" src="/images/SVG/purple-diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-header"> Coffee</span>
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-arabic"> والقهو</span>
-        <span><img className="inline w-[25px] px-1" src="/images/SVG/purple-diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-header"> Tea</span>
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-arabic"> السندويشات</span>
-        <span><img className="inline w-[25px] px-1" src="/images/SVG/purple-diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-header"> Sweets</span>
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-arabic"> والشاي</span>
-        <span><img className="inline w-[25px] px-1" src="/images/SVG/purple-diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-header">Sandwiches</span>
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-arabic">والحلويات </span>
       </div>
       <div className="inline font-medium text-4xl">
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-header"> Coffee</span>
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-arabic"> والقهو</span>
       </div>
       <div className="inline font-medium text-4xl">
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-header"> Tea</span>
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-arabic"> السندويشات</span>
       </div>
       <div className="inline font-medium text-4xl">
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-header"> Sweets</span>
+        <span>
+          <img
+            className="inline w-[25px] px-1 mx-2"
+            src="/images/SVG/purple-diamond.svg"
+          ></img>
+        </span>
         <span className="font-arabic"> والشاي</span>
       </div>
     </>
@@ -220,19 +401,31 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
       </div>
 
       <div id="container" className={styles.AnimatedMarqueeComponent}>
-        <div id="top" className={styles.marquee + " " + styles.top + " shadow-3xl"}>
+        <div
+          id="top"
+          className={styles.marquee + " " + styles.top + " shadow-3xl"}
+        >
           {marquee}
         </div>
 
-        <div id="right" className={styles.marquee + " " + styles.right + " shadow-3xl"}>
+        <div
+          id="right"
+          className={styles.marquee + " " + styles.right + " shadow-3xl"}
+        >
           {marquee}
         </div>
 
-        <div id="bottom" className={styles.marquee + " " + styles.bottom + " shadow-3xl"}>
+        <div
+          id="bottom"
+          className={styles.marquee + " " + styles.bottom + " shadow-3xl"}
+        >
           {marquee}
         </div>
 
-        <div id="left" className={styles.marquee + " " + styles.left + " shadow-3xl"}>
+        <div
+          id="left"
+          className={styles.marquee + " " + styles.left + " shadow-3xl"}
+        >
           {marquee}
         </div>
       </div>
