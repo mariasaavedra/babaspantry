@@ -19,53 +19,65 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
   const bottomRef = useRef("#bottom");
   const marquee = (
     <>
-          <div className="inline font-medium text-4xl">
+      <div className="inline font-medium  text-4xl">
         <span className="font-header">Sandwiches</span>
         <span className="font-arabic">والحلويات </span>
+        <span><img className="inline w-[25px]" src="/images/SVG/diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
         <span className="font-header"> Coffee</span>
         <span className="font-arabic"> والقهو</span>
+        <span><img className="inline w-[25px]" src="/images/SVG/diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
         <span className="font-header"> Tea</span>
         <span className="font-arabic"> السندويشات</span>
+        <span><img className="inline w-[25px]" src="/images/SVG/diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
         <span className="font-header"> Sweets</span>
         <span className="font-arabic"> والشاي</span>
+        <span><img className="inline w-[25px]" src="/images/SVG/diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
         <span className="font-header">Sandwiches</span>
         <span className="font-arabic">والحلويات </span>
+        <span><img className="inline w-[25px]" src="/images/SVG/diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
         <span className="font-header"> Coffee</span>
         <span className="font-arabic"> والقهو</span>
+        <span><img className="inline w-[25px]" src="/images/SVG/diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
         <span className="font-header"> Tea</span>
         <span className="font-arabic"> السندويشات</span>
+        <span><img className="inline w-[25px]" src="/images/SVG/diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
         <span className="font-header"> Sweets</span>
         <span className="font-arabic"> والشاي</span>
+        <span><img className="inline w-[25px]" src="/images/SVG/diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
         <span className="font-header">Sandwiches</span>
         <span className="font-arabic">والحلويات </span>
+        <span><img className="inline w-[25px]" src="/images/SVG/diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
         <span className="font-header"> Coffee</span>
         <span className="font-arabic"> والقهو</span>
+        <span><img className="inline w-[25px]" src="/images/SVG/diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
         <span className="font-header"> Tea</span>
         <span className="font-arabic"> السندويشات</span>
+        <span><img className="inline w-[25px]" src="/images/SVG/diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
         <span className="font-header"> Sweets</span>
         <span className="font-arabic"> والشاي</span>
+        <span><img className="inline w-[25px]" src="/images/SVG/diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
         <span className="font-header">Sandwiches</span>
@@ -208,19 +220,19 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
       </div>
 
       <div id="container" className={styles.AnimatedMarqueeComponent}>
-        <div id="top" className={styles.marquee + " " + styles.top}>
+        <div id="top" className={styles.marquee + " " + styles.top + " shadow-3xl"}>
           {marquee}
         </div>
 
-        <div id="right" className={styles.marquee + " " + styles.right}>
+        <div id="right" className={styles.marquee + " " + styles.right + " shadow-3xl"}>
           {marquee}
         </div>
 
-        <div id="bottom" className={styles.marquee + " " + styles.bottom}>
+        <div id="bottom" className={styles.marquee + " " + styles.bottom + " shadow-3xl"}>
           {marquee}
         </div>
 
-        <div id="left" className={styles.marquee + " " + styles.left}>
+        <div id="left" className={styles.marquee + " " + styles.left + " shadow-3xl"}>
           {marquee}
         </div>
       </div>

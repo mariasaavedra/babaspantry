@@ -16,18 +16,26 @@
 }
 
 .marquee {
-  font-size: 10rem;
+  font-size: 12rem;
   position: absolute;
   font-size: var(--marquee-font-size);
   line-height: 1;
   white-space: nowrap;
-  letter-spacing: 0.25rem;
+  letter-spacing: 0;
   overflow: hidden;
-  padding: 4px 0;
+  padding: 8px;
   min-width: 100%;
   user-select: none;
-  background:  #cdb4db;
+  /* background:  #cdb4db; */
+  background: theme(colors.green);
+  /* background: linear-gradient(233deg, #cdb4db, #cdc8ec, #cdb4db);
+  background-size: 600% 600%;
+
+  -webkit-animation: BG 36s ease infinite;
+  -moz-animation: BG 36s ease infinite;
+  animation: BG 36s ease infinite; */
   z-index: 999;
+  color: #333;
   &.top {
     top: 0;
   }
