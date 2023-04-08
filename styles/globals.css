@@ -32,8 +32,8 @@ body {
 }
 @font-face {
   font-family: "Rakkas";
-  src: url("/rakkas-regular-webfont.woff2") format("woff2"),
-    url("/rakkas-regular-webfont.woff") format("woff");
+  src: url("/ArefRuqaa-Regular.woff2") format("woff2"),
+    url("/ArefRuqaa-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
