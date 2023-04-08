@@ -22,62 +22,62 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
       <div className="inline font-medium  text-4xl">
         <span className="font-header">Sandwiches</span>
         <span className="font-arabic">والحلويات </span>
-        <span><img className="inline w-[25px]" src="/images/SVG/diamond.svg"></img></span>
+        <span><img className="inline w-[25px] px-1" src="/images/SVG/purple-diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
         <span className="font-header"> Coffee</span>
         <span className="font-arabic"> والقهو</span>
-        <span><img className="inline w-[25px]" src="/images/SVG/diamond.svg"></img></span>
+        <span><img className="inline w-[25px] px-1" src="/images/SVG/purple-diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
         <span className="font-header"> Tea</span>
         <span className="font-arabic"> السندويشات</span>
-        <span><img className="inline w-[25px]" src="/images/SVG/diamond.svg"></img></span>
+        <span><img className="inline w-[25px] px-1" src="/images/SVG/purple-diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
         <span className="font-header"> Sweets</span>
         <span className="font-arabic"> والشاي</span>
-        <span><img className="inline w-[25px]" src="/images/SVG/diamond.svg"></img></span>
+        <span><img className="inline w-[25px] px-1" src="/images/SVG/purple-diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
         <span className="font-header">Sandwiches</span>
         <span className="font-arabic">والحلويات </span>
-        <span><img className="inline w-[25px]" src="/images/SVG/diamond.svg"></img></span>
+        <span><img className="inline w-[25px] px-1" src="/images/SVG/purple-diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
         <span className="font-header"> Coffee</span>
         <span className="font-arabic"> والقهو</span>
-        <span><img className="inline w-[25px]" src="/images/SVG/diamond.svg"></img></span>
+        <span><img className="inline w-[25px] px-1" src="/images/SVG/purple-diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
         <span className="font-header"> Tea</span>
         <span className="font-arabic"> السندويشات</span>
-        <span><img className="inline w-[25px]" src="/images/SVG/diamond.svg"></img></span>
+        <span><img className="inline w-[25px] px-1" src="/images/SVG/purple-diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
         <span className="font-header"> Sweets</span>
         <span className="font-arabic"> والشاي</span>
-        <span><img className="inline w-[25px]" src="/images/SVG/diamond.svg"></img></span>
+        <span><img className="inline w-[25px] px-1" src="/images/SVG/purple-diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
         <span className="font-header">Sandwiches</span>
         <span className="font-arabic">والحلويات </span>
-        <span><img className="inline w-[25px]" src="/images/SVG/diamond.svg"></img></span>
+        <span><img className="inline w-[25px] px-1" src="/images/SVG/purple-diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
         <span className="font-header"> Coffee</span>
         <span className="font-arabic"> والقهو</span>
-        <span><img className="inline w-[25px]" src="/images/SVG/diamond.svg"></img></span>
+        <span><img className="inline w-[25px] px-1" src="/images/SVG/purple-diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
         <span className="font-header"> Tea</span>
         <span className="font-arabic"> السندويشات</span>
-        <span><img className="inline w-[25px]" src="/images/SVG/diamond.svg"></img></span>
+        <span><img className="inline w-[25px] px-1" src="/images/SVG/purple-diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
         <span className="font-header"> Sweets</span>
         <span className="font-arabic"> والشاي</span>
-        <span><img className="inline w-[25px]" src="/images/SVG/diamond.svg"></img></span>
+        <span><img className="inline w-[25px] px-1" src="/images/SVG/purple-diamond.svg"></img></span>
       </div>
       <div className="inline font-medium text-4xl">
         <span className="font-header">Sandwiches</span>
