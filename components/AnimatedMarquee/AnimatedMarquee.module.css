@@ -57,3 +57,18 @@
     transform: rotate(0.5turn);
   }    
 }
+.MenuComponent {
+  display: flex;
+  cursor: pointer;
+  &:hover {
+    animation: spin 10s infinite;
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}

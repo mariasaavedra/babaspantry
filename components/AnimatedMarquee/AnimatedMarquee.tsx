@@ -584,11 +584,11 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
       >
         <LayoutHorizontal>
           {/* Logo */}
-          <div className="p-2 z-[9999] bg-[#dbcaea] rounded-[50%] h-[200px] w-[200px] fixed top-[-80px] left-0 right-0 text-center mx-auto">
+          <div className="p-2 cursor-pointer z-[9999] bg-[#dbcaea] rounded-[50%] h-[200px] w-[200px] fixed top-[-90px] left-0 right-0 text-center mx-auto">
             <img
               src="/images/logo-black.svg"
-              width={130}
-              className="mx-auto text-center animate__animated animate__flash animate__infinite animate__delay-5s  animate__slower md:max-h-20 top-[10px] ml-7 fixed z-10"
+              width={115}
+              className="mx-auto text-center animate__animated animate__flash animate__infinite animate__delay-5s  animate__slower md:max-h-20 top-[10px] ml-9 fixed z-10"
             ></img>
           </div>
 
@@ -596,13 +596,13 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
           <div
             className={
               styles.MenuComponent +
-              " fixed top-[-5px] right-[-5px] z-10 p-4 rounded-full  bg-[#dbcaea]"
+              " cursor-pointer fixed top-[-5px] right-[-5px] z-10 p-4 rounded-full  bg-[#dbcaea]"
             }
           >
             <img
               width={70}
               className="animate__animated animate__shakeY"
-              src="/images/menu.png"
+              src="/images/menu.svg"
             ></img>
           </div>
 
