@@ -11,15 +11,13 @@
     left: 25px;
     font-family: 'Plus Jakarta Sans';
     z-index: 1;
-    /* font-size: 2rem; */
   }
   svg {
-    animation: spin 10s infinite;
+    animation: spin 5s infinite;
     max-width: 200px;
-    fill: theme(colors.green);
+    fill: theme(colors.orange);
     stroke: #000;
     stroke-width: 1px;
-    box-border: 
     cursor: pointer;
     z-index: -1;
   }
