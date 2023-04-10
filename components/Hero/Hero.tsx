@@ -3,7 +3,7 @@ import Text from "../Text/Text";
 
 function Hero() {
   return (
-    <div className="w-screen h-screen bg-purple py-10 flex flex-nowrap">
+    <div className="w-screen h-screen bg-purple pt-10 flex flex-nowrap">
       <div
         className="relative inline h-auto w-screen"
         style={{

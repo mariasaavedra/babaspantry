@@ -46,6 +46,36 @@ function ScrollSection() {
       the animation should alway be two separated refs */}
       <div ref={triggerRef}>
         <div ref={sectionRef} className="scroll-section-inner">
+          {/* Section 1 */}
+          <div className="scroll-section bg-purple">
+            <div
+              className="relative inline h-screen w-1/2"
+              style={{
+                backgroundImage: `url("/images/BP_5.jpeg")`,
+                backgroundSize: "cover",
+              }}
+            ></div>
+            <div className="relative flex items-center  h-screen w-1/2 p-8">
+              <Text>
+                <h1 className="text-9xl py-2 font-header">
+                  Welcome to Baba's Pantry
+                </h1>
+                <p className="text-lg">
+                  For almost two decades, Yahia Kamal has been a prominent
+                  figure in the food scene of Kansas City. However, Baba's
+                  Pantry marks several significant firsts for the Palestine-born
+                  chef.
+                  <br />
+                  <br />
+                  Every dish on the menu feels deeply personal, from the
+                  impossibly crisp falafel to the smooth, velvety hummus and an
+                  array of homemade sauces and seasonings. Baba's Pantry is a
+                  mouth-watering expression of the feeling of being at home.
+                </p>
+              </Text>
+            </div>
+          </div>
+          {/* Section 2 */}
           <div className="scroll-section bg-purple">
             <div
               className="relative inline h-screen w-1/2"
@@ -54,29 +84,23 @@ function ScrollSection() {
                 backgroundSize: "cover",
               }}
             ></div>
-            <div className="relative h-screen w-1/2">
+            <div className="relative items-center flex h-screen w-1/2 p-8">
               <Text>
-                <h1 className="text-5xl py-2 font-header">
-                  Welcome to Baba's Pantry,
+                <h1 className="text-9xl py-2 font-header">
+                  Top 10 Best Restaurants in America
                 </h1>
-                For almost two decades, Yahia Kamal has been a prominent figure
-                in the food scene of Kansas City. However, Baba's Pantry marks
-                several significant firsts for the Palestine-born chef.
-                <br />
-                <br />
-                Every dish on the menu feels deeply personal, from the
-                impossibly crisp falafel to the smooth, velvety hummus and an
-                array of homemade sauces and seasonings. Baba's Pantry is a
-                mouth-watering expression of the feeling of being at home.
+                <p className="text-lg">
+                  Kansas City's own Baba's Pantry was named one of America's
+                  best new restaurants by Bon Appetit Magazine.
+                </p>
               </Text>
             </div>
           </div>
-          <div className="scroll-section bg-blue">
-            <h3>Section 2</h3>
-          </div>
+          {/* Section 3 */}
           <div className="scroll-section bg-purple">
             <h3>Section 3</h3>
           </div>
+          {/* Section */}
           <div className="scroll-section bg-green">
             <h3>Section 4</h3>
           </div>
