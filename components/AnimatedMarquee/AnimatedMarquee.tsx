@@ -614,17 +614,16 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
 
           <Content layout="horizontal">
             {/* <Sidebar></Sidebar> */}
-            <div className="relative h-screen max-w-xlg">
-              <img className=" h-screen w-auto" src="/images/BP_1.jpeg"></img>
+            <div className="relative  max-w-5xl">
+              <img className=" m-4 h-screen w-auto" src="/images/BP_1.jpeg"></img>
             </div>
-            <div className="relative h-screen max-w-xlg">
-              <img className="h-screen w-auto" src="/images/BP_9.webp"></img>
-              <Arabic></Arabic>
+            <div className="relative h-screen max-w-3xl">
+              <img className="my-4 h-screen w-auto" src="/images/BP_9.webp"></img>
             </div>
-            <div className="relative h-screen max-w-lg ">
+            <div className="relative h-screen p-20 max-w-3xl">
               <Text>
-                <h1 className="text-5xl py-2 font-header">
-                  Welcome to Baba's Pantry,
+                <h1 className="text-7xl py-2 font-header">
+                  Welcome to Baba's Pantry
                 </h1>
                 For almost two decades, Yahia Kamal has been a prominent figure
                 in the food scene of Kansas City. However, Baba's Pantry marks
@@ -638,14 +637,13 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
               </Text>
             </div>
             <div className="relative h-screen">
-              <img className="h-auto w-auto" src="/images/BP_7.webp"></img>
-              <Arabic></Arabic>
+              <img className="h-screen w-auto" src="/images/BP_7.webp"></img>
             </div>
 
-            <div className="relative h-screen max-w-[90vw]">
-              <div className="relative h-[50%] max-w-[400px]">
+            <div className="relative h-screen">
+              <div className="relative h-screen p-20 max-w-3xl">
                 <Text>
-                  <h1 className="font-header text-4xl">
+                <h1 className="text-7xl py-2 font-header">
                     Named in the Top 10 Best New Resturants in America by Bon
                     Appetit Magazine
                   </h1>
@@ -670,9 +668,9 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
               <img src="/images/BP_4.jpeg"></img>
             </div>
 
-            <div className="h-screen max-w-lg pr-[100px]">
+            <div className="relative h-screen p-20 max-w-3xl">
               <Text>
-                <h1 className="font-header text-7xl">Contact Us</h1>
+              <h1 className="text-7xl py-2 font-header">Contact Us</h1>
 
                 <h1 className="font-header text-3xl">Location</h1>
                 <p> 1019 E 63rd St, Kansas City, MO 64110</p>
