@@ -7,14 +7,16 @@
     margin: 0 auto;
     text-align: center;
     position: absolute;
-    top: 22px;
-    left: 25px;
+    top: 15px;
+    font-size: 16px;
+    left: 15px;
     font-family: 'Plus Jakarta Sans';
     z-index: 1;
   }
   svg {
     animation: spin 5s infinite;
-    max-width: 200px;
+    transition-timing-function: linear;
+    max-width: 150px;
     fill: theme(colors.orange);
     stroke: #000;
     stroke-width: 1px;
