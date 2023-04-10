@@ -22,6 +22,7 @@
   letter-spacing: 0;
   overflow: hidden;
   padding: 12px;
+  border: 1px solid black;
   min-width: 100%;
   user-select: none;
   /* background:  #cdb4db; */
@@ -54,7 +55,7 @@
   &.bottom {
     bottom: -1px;
     right: 0;
-    transform: rotate(0.5turn);
+    transform: 0;
   }
 }
 .MenuComponent {
@@ -74,7 +75,7 @@
 }
 
 .clipPath {
-  transform: scale(1.5, 1.5);
+  transform: scale(2,2);
 }
 
 .shape {

@@ -39,13 +39,10 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
     let distance = 900;
 
     const config = {
-      scrollTrigger: {
-        trigger: "#section",
-        start: 0,
-        markers: true,
-        repeat: -1,
-        scrub: true,
-      },
+      start: 0,
+      markers: true,
+      repeat: -1,
+      scrub: true,
     };
     const t1 = gsap.timeline(config);
     const t2 = gsap.timeline(config);
@@ -55,8 +52,8 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
 
     // t1.to(left, { yPercent: -50, y: 1000, x: 0, duration: 1, delay: 0 });
     // t2.to(right, { yPercent: -50, y: 1000, x: 0, duration: 1, delay: 0 });
-    t3.to(top, { xPercent: -50, x: 1000, y: 0, duration: 1, delay: 0 });
-    t4.to(bottom, { xPercent: 50, x: 1000, y: 0, duration: 1, delay: 0 });
+    t3.to(top, { xPercent: -50, x: 1000, y: 0, duration: 50, delay: 0 });
+    t4.to(bottom, { xPercent: 50, x: 1000, y: 0, duration: 50, delay: 0 });
   });
 
   const marquee = (
@@ -583,13 +580,12 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
       <div>
         <svg
           className="absolute"
-          viewBox="0 0 100 100"
+          viewBox="299 299 300 300"
           fill="red"
           stroke="#000"
         >
           <clipPath
-            strokeWidth="1.5"
-            stroke="#000"
+  
             className={styles.clipPath}
             id="myClip"
           >
@@ -604,13 +600,14 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
           id="shape"
           className={
             styles.shape +
-            " shadow-6xl cursor-pointer z-[9999] bg-[#dbcaea] h-[200px] w-[200px] fixed top-[-50px] left-0 right-0 text-center mx-auto"
+            " shadow-6xl cursor-pointer z-[9999] bg-[] h-[400px] w-[400px] fixed top-[-50px] left-0 right-0 text-center mx-auto"
           }
         >
           <img
-            src="/images/logo-black.svg"
-            width={115}
-            className="mx-auto text-center animate__animated animate__flash animate__infinite animate__delay-5s  animate__slower md:max-h-20 top-[10px] ml-6 fixed z-10 p-2"
+            src="/images/logo-blue.svg"
+            width={175}
+            height={"auto"}
+            className="mx-auto text-center animate__animated  animate__infinite animate__delay-5s  animate__slower  top-[10px] ml-6 fixed z-10 p-2"
           ></img>
         </div>
       </div>
@@ -619,7 +616,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
         onClick={() => setIsOpen((prev) => !prev)}
         className={
           styles.MenuComponent +
-          " cursor-pointer fixed top-[-5px] right-[-5px] z-10 p-4 rounded-full  bg-[#dbcaea]"
+          " cursor-pointer spin fixed top-[-5px] right-[-5px] z-10 p-4 rounded-full  bg-[#dbcaea]"
         }
       >
         <img

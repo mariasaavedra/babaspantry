@@ -15,7 +15,7 @@ module.exports = {
     extend: {
       fontFamily: {
         header: ["Pilot"],
-        arabic: ["ArefRuqaa"],
+        arabic: ["Rakkas"],
       },
     },
   },

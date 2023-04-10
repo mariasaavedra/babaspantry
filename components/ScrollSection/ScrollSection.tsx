@@ -61,7 +61,7 @@ function ScrollSection() {
             ></div>
             <div className="relative flex items-center  h-screen w-1/2 p-8">
               <Text>
-                <h1 className="text-6xl py-2 text-blue font-header">مرحباً</h1>
+               <img width={280} src="/images/arabic-welcome.svg"></img>
                 <h1 className="text-9xl py-2 font-header">
                   Welcome to Baba's Pantry
                 </h1>
@@ -106,7 +106,7 @@ function ScrollSection() {
           <div className="scroll-section bg-purple">
             <div className="relative items-center flex h-screen w-1/2 p-8">
               <Text>
-                <h1 className="text-6xl py-2 font-header">قائمة طعام</h1>
+                <h1 className="text-8xl py-2  font-arabic">قائمة طعام</h1>
                 <h1 className="text-9xl py-2 font-header">Menu</h1>
                 <p className="text-lg">
                   Hungry for a delicious feast? Click on our menu photo and
@@ -124,9 +124,24 @@ function ScrollSection() {
               <img src="/images/MENU-BACK.png"></img>
             </div>
           </div>
-          {/* Section */}
-          <div className="scroll-section bg-green">
-            <h3>Section 4</h3>
+          {/* Section 4 */}
+          <div className="scroll-section bg-purple">
+            <div>
+              <img src="/images/merch.png"></img>
+            </div>
+
+            <div className="relative items-center flex h-screen w-1/2 p-8">
+              <Text>
+                <h1 className="text-9xl py-2 font-header">Merchandise</h1>
+                <p className="text-lg">
+                  Show your love for Baba's Pantry and support a local business by
+                  grabbing one of our branded jerseys! Not only will you look
+                  great, but you'll be helping us continue to bring authentic
+                  Palestinian cuisine to your table. Order now and wear your
+                  pride on your sleeve!
+                </p>
+              </Text>
+            </div>
           </div>
         </div>
       </div>
