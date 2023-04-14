@@ -59,10 +59,10 @@ function ScrollSection() {
                 backgroundSize: "cover",
               }}
             ></div>
-            <div className="relative flex items-center  h-screen w-1/2 p-8">
+            <div id="welcome" className="relative flex items-center  h-screen w-1/2 p-8">
               <Text>
-               <img width={280} src="/images/arabic-welcome.svg"></img>
-                <h1 className="text-9xl py-2 font-header">
+                <img width={150} src="/images/arabic-welcome.svg"></img>
+                <h1 className="text-7xl py-2 font-header">
                   Welcome to Baba's Pantry
                 </h1>
                 <p className="text-lg">
@@ -81,7 +81,7 @@ function ScrollSection() {
             </div>
           </div>
           {/* Section 2 */}
-          <div className="scroll-section bg-purple">
+          <div id="top-10" className="scroll-section bg-purple">
             <div
               className="relative inline h-screen w-1/2"
               style={{
@@ -91,7 +91,7 @@ function ScrollSection() {
             ></div>
             <div className="relative items-center flex h-screen w-1/2 p-8">
               <Text>
-                <h1 className="text-9xl py-2 font-header">
+                <h1 className="text-7xl py-2 font-header">
                   Top 10 Best Restaurants in America
                 </h1>
                 <p className="text-lg">
@@ -103,12 +103,12 @@ function ScrollSection() {
           </div>
 
           {/* Section 3 */}
-          <div className="scroll-section bg-purple">
+          <div  id="menu" className="scroll-section bg-purple">
             <div className="relative items-center flex h-screen w-1/2 p-8">
               <Text>
-                <h1 className="text-8xl py-2  font-arabic">قائمة طعام</h1>
-                <h1 className="text-9xl py-2 font-header">Menu</h1>
-                <p className="text-lg">
+                <img width={200} src="/images/menu-arabic_2.svg"></img>
+                <h1 className="text-7xl py-2 font-header">Menu</h1>
+                <p className="text-lg max-w-lg">
                   Hungry for a delicious feast? Click on our menu photo and
                   explore a world of mouth-watering flavors in a new page! From
                   savory starters to indulgent desserts, satisfy your cravings
@@ -117,25 +117,26 @@ function ScrollSection() {
               </Text>
             </div>
             <div className="relative items-center flex h-screen w-1/2 p-8">
-              <img src="/images/MENU-FRONT.png"></img>
-            </div>
-
-            <div className="relative items-center flex h-screen w-1/2 p-8">
-              <img src="/images/MENU-BACK.png"></img>
+              <img className="border border-2 h-[70vh] mr-2" src="/images/MENU-FRONT.png"></img>
             </div>
           </div>
           {/* Section 4 */}
           <div className="scroll-section bg-purple">
-            <div>
-              <img src="/images/merch.png"></img>
-            </div>
-
+            <div
+              className="relative inline h-screen w-1/2"
+              style={{
+                opacity: 0.6,
+                backgroundImage: `url("/images/pattern2.svg")`,
+                backgroundSize: "cover",
+              }}
+            ></div>
             <div className="relative items-center flex h-screen w-1/2 p-8">
               <Text>
-                <h1 className="text-9xl py-2 font-header">Merchandise</h1>
+              <img width={150} src="/images/merch-arabic.svg"></img>
+              <h1 className="text-7xl py-2 font-header">Merchandise</h1>
                 <p className="text-lg">
-                  Show your love for Baba's Pantry and support a local business by
-                  grabbing one of our branded jerseys! Not only will you look
+                  Show your love for Baba's Pantry and support a local business
+                  by grabbing one of our branded jerseys! Not only will you look
                   great, but you'll be helping us continue to bring authentic
                   Palestinian cuisine to your table. Order now and wear your
                   pride on your sleeve!

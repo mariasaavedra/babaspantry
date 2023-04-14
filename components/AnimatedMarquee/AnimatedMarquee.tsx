@@ -578,6 +578,9 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
   return (
     <div>
       <div>
+        <div>
+          
+        </div>
         <svg
           className="absolute"
           viewBox="299 299 300 300"
@@ -600,14 +603,14 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
           id="shape"
           className={
             styles.shape +
-            " shadow-6xl cursor-pointer z-[9999] bg-[] h-[400px] w-[400px] fixed top-[-50px] left-0 right-0 text-center mx-auto"
+            " shadow-6xl cursor-pointer z-[9999] bg-[] h-[200px] w-[200px] fixed top-[-60px] left-0 right-0 text-center mx-auto"
           }
         >
           <img
             src="/images/logo-blue.svg"
-            width={175}
+            width={160}
             height={"auto"}
-            className="mx-auto text-center animate__animated  animate__infinite animate__delay-5s  animate__slower  top-[10px] ml-6 fixed z-10 p-2"
+            className="mx-auto text-center animate__animated  animate__infinite animate__delay-5s  animate__slower  top-[5px] ml-[20px] fixed z-10 p-3 py-1"
           ></img>
         </div>
       </div>

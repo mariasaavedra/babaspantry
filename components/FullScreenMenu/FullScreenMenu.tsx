@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./FullScreenMenu.module.css";
 
 export interface FullScreenMenuProps {
@@ -27,13 +28,13 @@ export default function FullScreenMenu(props: FullScreenMenuProps) {
         </div>
         <div className="flex-grow flex justify-center items-center">
           <ul className="animate__animated  text-6xl flex flex-col items-center">
-            <li className="py-4 font-header">ABOUT</li>
-            <li className="py-4 font-header">MENU</li>
-            <li className="py-4 font-header">CATERING</li>
-            <li className="py-4 font-header">MERCH</li>
-            <li className="py-4 font-header">SHOP PANTRY</li>
-            <li className="py-4 font-header">PRESS</li>
-            <li className="py-4 font-header">CONTACT</li>
+            <li className="py-4 font-header"><Link href={"#welcome"}>ABOUT</Link></li>
+            <li className="py-4 font-header"><Link href={"#menu"}>MENU</Link></li>
+            <li className="py-4 font-header"><Link href={"#catering"}>CATERING</Link></li>
+            <li className="py-4 font-header"><Link href={"#merch"}>MERCH</Link></li>
+            <li className="py-4 font-header"><Link href={"#menu"}>SHOP PANTRY</Link></li>
+            <li className="py-4 font-header"><Link href={"#menu"}>PRESS</Link></li>
+            <li className="py-4 font-header"><Link href={"#menu"}>CONTACT</Link></li>
           </ul>
         </div>
       </div>

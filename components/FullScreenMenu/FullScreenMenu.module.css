@@ -1,5 +1,5 @@
 .FullScreenMenuComponent {
-  z-index: 999;
+  z-index: 9999;
   background: rgba(205, 180, 219, 0.8);
   height: 100vh;
   width: 100vw;
@@ -39,6 +39,9 @@
     }
     &:nth-child(6) {
       animation-delay: 1.5s;
+    }
+    &:nth-child(7) {
+      animation-delay: 1.75s;
     }
   }
 }

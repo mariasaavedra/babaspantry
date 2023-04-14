@@ -10,11 +10,12 @@ function Footer() {
           backgroundImage: `url("/images/BP_6.webp")`,
           backgroundSize: "cover",
         }}
+
       ></div>
       <div className="relative flex  py-2 items-center  h-screen w-1/2 p-8 bg-purple">
         <Text>
-          <h1 className="font-arabic text-6xl text-[#1BADE0]">اتصل بنا</h1>
-          <h1 className="font-header py-2 text-9xl">Contact Us</h1>
+          <img width={150} src="/images/contact-arabic.svg"></img>
+          <h1 className="font-header py-2 text-7xl">Contact Us</h1>
 
           <h1 className="font-header text-3xl">Location</h1>
           <p> 1019 E 63rd St, Kansas City, MO 64110</p>

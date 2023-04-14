@@ -95,3 +95,8 @@ body,
   -webkit-text-stroke-width: 0;
   -webkit-text-stroke-color: theme(colors.blue);
 }
+
+/* svg,  
+img {
+  border: 1px solid #473851;
+} */

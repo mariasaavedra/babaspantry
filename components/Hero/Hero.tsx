@@ -9,7 +9,7 @@ function Hero() {
         style={{
           backgroundImage: `url("/images/BP_7.webp")`,
           backgroundSize: "cover",
-          backgroundPosition: 'center'
+          backgroundPosition: 'top'
         }}
       >
         {/* <img className="inline  w-1/3 h-min-screen" src="/images/BP_1.jpeg"></img> */}
