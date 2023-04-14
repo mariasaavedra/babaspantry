@@ -5,11 +5,13 @@ function Footer() {
   return (
     <footer className="footer">
       <div
-        className="relative inline h-screen w-1/2"
+        className="relative inline h-screen w-1/2 border-2 border-violet"
         style={{
           backgroundImage: `url("/images/BP_6.webp")`,
           backgroundSize: "cover",
+          backgroundPosition: "bottom"
         }}
+        
 
       ></div>
       <div className="relative flex  py-2 items-center  h-screen w-1/2 p-8 bg-purple">

@@ -17,8 +17,10 @@
       color: #000;
       cursor: pointer;
       text-decoration-line: underline;
+      
     }
     animation: highlight 2.5s;
+    animation-fill-mode:forwards;
     &:nth-child(1) {
       animation-delay: 0;
     }
@@ -51,6 +53,8 @@
     color: #000;
     cursor: pointer;
     text-decoration-line: underline;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
   }
   100% {
     color: theme(colors.blue);

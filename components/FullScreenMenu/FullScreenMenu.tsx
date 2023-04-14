@@ -28,13 +28,41 @@ export default function FullScreenMenu(props: FullScreenMenuProps) {
         </div>
         <div className="flex-grow flex justify-center items-center">
           <ul className="animate__animated  text-6xl flex flex-col items-center">
-            <li className="py-4 font-header"><Link href={"#welcome"}>ABOUT</Link></li>
-            <li className="py-4 font-header"><Link href={"#menu"}>MENU</Link></li>
-            <li className="py-4 font-header"><Link href={"#catering"}>CATERING</Link></li>
-            <li className="py-4 font-header"><Link href={"#merch"}>MERCH</Link></li>
-            <li className="py-4 font-header"><Link href={"#menu"}>SHOP PANTRY</Link></li>
-            <li className="py-4 font-header"><Link href={"#menu"}>PRESS</Link></li>
-            <li className="py-4 font-header"><Link href={"#menu"}>CONTACT</Link></li>
+            <li className="py-4 font-header">
+              <Link onClick={props.handleClose} href={"#welcome"}>
+                ABOUT
+              </Link>
+            </li>
+            <li className="py-4 font-header">
+              <Link onClick={props.handleClose} href={"#menu"}>
+                MENU
+              </Link>
+            </li>
+            <li className="py-4 font-header">
+              <Link onClick={props.handleClose} href={"#catering"}>
+                CATERING
+              </Link>
+            </li>
+            <li className="py-4 font-header">
+              <Link onClick={props.handleClose} href={"#merch"}>
+                MERCH
+              </Link>
+            </li>
+            <li className="py-4 font-header">
+              <Link onClick={props.handleClose} href={"#pantry"}>
+                SHOP PANTRY
+              </Link>
+            </li>
+            <li className="py-4 font-header">
+              <Link onClick={props.handleClose} href={"#press"}>
+                PRESS
+              </Link>
+            </li>
+            <li className="py-4 font-header">
+              <Link onClick={props.handleClose} href={"#contact"}>
+                CONTACT
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

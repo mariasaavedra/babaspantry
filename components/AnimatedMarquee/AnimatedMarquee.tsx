@@ -619,7 +619,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
         onClick={() => setIsOpen((prev) => !prev)}
         className={
           styles.MenuComponent +
-          " cursor-pointer spin fixed top-[-5px] right-[-5px] z-10 p-4 rounded-full  bg-[#dbcaea]"
+          " cursor-pointer spin fixed top-[-5px] right-[-5px] z-10 p-4 rounded-full top-[1px]  bg-[#dbcaea]"
         }
       >
         <img
