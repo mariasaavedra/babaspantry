@@ -54,7 +54,7 @@ function ScrollSection() {
           {/* Section 1 */}
           <div className="scroll-section bg-purple">
             <div
-              className="relative inline h-screen w-1/2 border-2 border-t-0 border-violet"
+              className="relative inline h-screen md:w-1/2 border-2 border-t-0 border-violet"
               style={{
                 backgroundImage: `url("/images/BP_5.jpeg")`,
                 backgroundSize: "cover",
@@ -62,7 +62,7 @@ function ScrollSection() {
             ></div>
             <div
               id="welcome"
-              className="relative flex items-center  h-screen w-1/2 p-8"
+              className="relative flex items-center h-screen md:w-1/2 md:p-8"
             >
               <Text>
                 <img width={150} src="/images/arabic-welcome.svg"></img>
@@ -85,15 +85,15 @@ function ScrollSection() {
             </div>
           </div>
           {/* Section 2 */}
-          <div id="top-10" className="scroll-section bg-purple">
+          <div id="tomd:p-10" className="scroll-section bg-purple">
             <div
-              className="relative inline h-screen w-1/2 border-2 border-violet"
+              className="relative inline h-screen md:w-1/2 border-2 border-violet"
               style={{
                 backgroundImage: `url("/images/BP_1.jpeg")`,
                 backgroundSize: "cover",
               }}
             ></div>
-            <div className="relative items-center flex h-screen w-1/2 p-8">
+            <div className="relative items-center flex h-screen md:w-1/2 md:p-8">
               <Text>
                 <img width={180} src="/images/press-arabic.svg"></img>
                 <h1 className="text-7xl py-2 font-header">Press</h1>
@@ -127,11 +127,8 @@ function ScrollSection() {
           </div>
 
           {/* Section 3 */}
-          <div
-            id="menu"
-            className="scroll-section bg-purple"
-          >
-            <div className="relative items-center flex h-screen w-1/2 p-8">
+          <div id="menu" className="scroll-section bg-purple">
+            <div className="relative items-center flex h-screen md:w-1/2 md:p-8">
               <Text>
                 <img width={200} src="/images/menu-arabic_2.svg"></img>
                 <h1 className="text-7xl py-2 font-header">Menu</h1>
@@ -149,7 +146,7 @@ function ScrollSection() {
                 ></img>
               </Link>
             </div>
-            <div className="relative items-center flex h-screen w-1/2 p-8 pr-0">
+            <div className="relative items-center flex h-screen md:w-1/2 md:p-8 pr-0">
               <img
                 className="border border-2 border-violet h-screen mr-2"
                 src="/images/BP_9.webp"
@@ -158,11 +155,24 @@ function ScrollSection() {
           </div>
           {/* Section 4 */}
           <div className="scroll-section bg-purple">
-            <div className="relative items-center flex h-screen w-full p-8">
-              <div className="w-1/2">
+            <div className="relative items-center flex h-screen w-full md:p-8">
+              <div className="md:w-1/2">
                 <Text>
                   <img width={150} src="/images/merch-arabic.svg"></img>
                   <h1 className="text-7xl py-2 font-header">Merchandise</h1>
+                  <p className="text-lg">
+                    Show your love for Baba's Pantry and support a local
+                    business by grabbing one of our branded jerseys! Not only
+                    will you look great, but you'll be helping us continue to
+                    bring authentic Palestinian cuisine to your table. Order now
+                    and wear your pride on your sleeve!
+                  </p>
+                </Text>
+              </div>
+              <div className="md:w-1/2">
+                <Text>
+                  <img width={150} src="/images/merch-arabic.svg"></img>
+                  <h1 className="text-7xl py-2 font-header">Shop Pantry</h1>
                   <p className="text-lg">
                     Show your love for Baba's Pantry and support a local
                     business by grabbing one of our branded jerseys! Not only

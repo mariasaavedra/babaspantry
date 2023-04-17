@@ -1,3 +1,7 @@
 .HeroComponent {
+}
 
+.text {
+  -webkit-text-stroke: 3px theme(colors.blue);
+  text-stroke: 3px theme(colors.blue);
 }

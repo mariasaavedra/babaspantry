@@ -72,7 +72,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic">والحلويات </span>
+        <span className="font-arabic">شطائر </span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -88,7 +88,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic"> والقهو</span>
+        <span className="font-arabic"> قهوة</span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -104,7 +104,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic"> السندويشات</span>
+        <span className="font-arabic"> شاي</span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -120,7 +120,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic"> والشاي</span>
+        <span className="font-arabic"> حلويات</span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -136,7 +136,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic">والحلويات </span>
+        <span className="font-arabic">شطائر </span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -153,7 +153,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
           ></img>
         </span>
 
-        <span className="font-arabic"> والقهو</span>
+        <span className="font-arabic"> قهوة</span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -169,7 +169,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic"> السندويشات</span>
+        <span className="font-arabic"> شاي</span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -185,7 +185,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic"> والشاي</span>
+        <span className="font-arabic"> حلويات</span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -201,7 +201,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic">والحلويات </span>
+        <span className="font-arabic">شطائر </span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -217,7 +217,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic"> والقهو</span>
+        <span className="font-arabic"> قهوة</span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -233,7 +233,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic"> السندويشات</span>
+        <span className="font-arabic"> شاي</span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -249,7 +249,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic"> والشاي</span>
+        <span className="font-arabic"> حلويات</span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -265,7 +265,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic">والحلويات </span>
+        <span className="font-arabic">شطائر </span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -281,7 +281,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic"> والقهو</span>
+        <span className="font-arabic"> قهوة</span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -297,7 +297,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic"> السندويشات</span>
+        <span className="font-arabic"> شاي</span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -313,7 +313,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic"> والشاي</span>
+        <span className="font-arabic"> حلويات</span>
       </div>
       <div className="inline font-medium  text-4xl">
         <span>
@@ -329,7 +329,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic">والحلويات </span>
+        <span className="font-arabic">شطائر </span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -345,7 +345,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic"> والقهو</span>
+        <span className="font-arabic"> قهوة</span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -361,7 +361,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic"> السندويشات</span>
+        <span className="font-arabic"> شاي</span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -377,7 +377,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic"> والشاي</span>
+        <span className="font-arabic"> حلويات</span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -393,7 +393,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic">والحلويات </span>
+        <span className="font-arabic">شطائر </span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -410,7 +410,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
           ></img>
         </span>
 
-        <span className="font-arabic"> والقهو</span>
+        <span className="font-arabic"> قهوة</span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -426,7 +426,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic"> السندويشات</span>
+        <span className="font-arabic"> شاي</span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -442,7 +442,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic"> والشاي</span>
+        <span className="font-arabic"> حلويات</span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -458,7 +458,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic">والحلويات </span>
+        <span className="font-arabic">شطائر </span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -474,7 +474,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic"> والقهو</span>
+        <span className="font-arabic"> قهوة</span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -490,7 +490,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic"> السندويشات</span>
+        <span className="font-arabic"> شاي</span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -506,7 +506,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic"> والشاي</span>
+        <span className="font-arabic"> حلويات</span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -522,7 +522,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic">والحلويات </span>
+        <span className="font-arabic">شطائر </span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -538,7 +538,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic"> والقهو</span>
+        <span className="font-arabic"> قهوة</span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -554,7 +554,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic"> السندويشات</span>
+        <span className="font-arabic"> شاي</span>
       </div>
       <div className="inline font-medium text-4xl">
         <span>
@@ -570,7 +570,7 @@ export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
             src="/images/SVG/purple-diamond.svg"
           ></img>
         </span>
-        <span className="font-arabic"> والشاي</span>
+        <span className="font-arabic"> حلويات</span>
       </div>
     </>
   );
