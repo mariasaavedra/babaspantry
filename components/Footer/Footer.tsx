@@ -9,10 +9,8 @@ function Footer() {
         style={{
           backgroundImage: `url("/images/BP_6.webp")`,
           backgroundSize: "cover",
-          backgroundPosition: "bottom"
+          backgroundPosition: "bottom",
         }}
-        
-
       ></div>
       <div className="relative flex  py-2 items-center  h-screen w-1/2 p-8 bg-purple">
         <Text>
@@ -28,6 +26,9 @@ function Footer() {
 
           <h1 className="font-header text-3xl">Phone</h1>
           <p>(816) 702-0045</p>
+
+          <h1 className="font-header text-3xl">Email</h1>
+          <p>babaspantrykcmo@gmail.com</p>
 
           <h1 className="mt-10 text-3xl font-header">
             We accept catering orders via our email please give us no less than
