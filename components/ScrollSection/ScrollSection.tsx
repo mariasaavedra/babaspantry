@@ -107,17 +107,26 @@ function ScrollSection() {
                 <p className="mt-4 text-2xl">Links:</p>
                 <ul>
                   <li className="underline">
-                    <Link target="_blank" href="https://www.bonappetit.com/story/babas-pantry-kansas-city-missouri-best-new-restaurant-2022">
+                    <Link
+                      target="_blank"
+                      href="https://www.bonappetit.com/story/babas-pantry-kansas-city-missouri-best-new-restaurant-2022"
+                    >
                       Bon Appetit
                     </Link>
                   </li>
                   <li className="underline">
-                    <Link target="_blank" href="https://www.kcur.org/arts-life/2022-09-14/babas-pantry-in-kansas-city-named-one-of-the-countrys-10-best-new-restaurants">
+                    <Link
+                      target="_blank"
+                      href="https://www.kcur.org/arts-life/2022-09-14/babas-pantry-in-kansas-city-named-one-of-the-countrys-10-best-new-restaurants"
+                    >
                       KCUR
                     </Link>
                   </li>
                   <li className="underline">
-                    <Link target="_blank" href="https://www.kansascity.com/news/local/article265499761.html">
+                    <Link
+                      target="_blank"
+                      href="https://www.kansascity.com/news/local/article265499761.html"
+                    >
                       Kansas City Star
                     </Link>
                   </li>
@@ -156,7 +165,7 @@ function ScrollSection() {
           {/* Section 4 */}
           <div className="scroll-section bg-purple">
             <div className="relative items-center flex h-screen w-full md:p-8">
-              <div className="md:w-1/2">
+              <div className="md:w-1/4">
                 <Text>
                   <img width={150} src="/images/merch-arabic.svg"></img>
                   <h1 className="text-7xl py-2 font-header">Merchandise</h1>
@@ -169,9 +178,21 @@ function ScrollSection() {
                   </p>
                 </Text>
               </div>
-              <div className="md:w-1/2">
+              <div className="md:w-1/4 mx-2">
+                <img
+                  className="border border-2 border-violet h-1/2"
+                  src="/images/bambi.jpeg"
+                ></img>
+              </div>
+              <div className="md:w-1/4 mx-2">
+                <img
+                  className="border border-2 border-violet h-1/2"
+                  src="/images/pantry.jpg"
+                ></img>
+              </div>
+              <div className="md:w-1/4">
                 <Text>
-                <img width={150} src="/images/pantry_arabic.svg"></img>
+                  <img width={150} src="/images/pantry_arabic.svg"></img>
                   <h1 className="text-7xl py-2 font-header">Shop Pantry</h1>
                   <p className="text-lg">
                     Show your love for Baba's Pantry and support a local
