@@ -14,11 +14,11 @@ function Hero() {
           backgroundPosition: "top",
         }}
       >
-        <div className="absolute  bottom-20 right-0 w-[450px] h-[350px] z-[9999]">
+        <div className="absolute  bottom-20 left-10 w-[450px] h-[350px]">
           <h1
             className={
               styles.text +
-              " font-header text-8xl underline text-[#fff] p-8 rounded-sm text-right"
+              " font-header text-8xl underline text-[#fff] p-8 rounded-sm text-left"
             }
           >
             Top 10 Best Restaurants <br /> by Bon Appétit
