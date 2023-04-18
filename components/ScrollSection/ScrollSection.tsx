@@ -139,7 +139,7 @@ function ScrollSection() {
                   with just a click.
                 </p>
               </Text>
-              <Link className="pointer" href="">
+              <Link className="pointer" target="_blank" href="/menu.pdf">
                 <img
                   className="border border-2 border-violet h-[70vh] mr-2"
                   src="/images/MENU-FRONT.png"
