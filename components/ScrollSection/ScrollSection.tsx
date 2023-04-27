@@ -142,10 +142,7 @@ function ScrollSection() {
                 <img width={200} src="/images/menu-arabic_2.svg"></img>
                 <h1 className="text-7xl py-2 font-header">Menu</h1>
                 <p className="text-lg max-w-lg">
-                  Hungry for a delicious feast? Click on our menu photo and
-                  explore a world of mouth-watering flavors in a new page! From
-                  savory starters to indulgent desserts, satisfy your cravings
-                  with just a click.
+                  Click on the menu on the right to explore a world of mouth-watering flavors.
                 </p>
               </Text>
               <Link className="pointer" target="_blank" href="/menu.pdf">
@@ -169,13 +166,6 @@ function ScrollSection() {
                 <Text>
                   <img width={150} src="/images/merch-arabic.svg"></img>
                   <h1 className="text-7xl py-2 font-header">Merchandise</h1>
-                  <p className="text-lg">
-                    Show your love for Baba's Pantry and support a local
-                    business by grabbing one of our branded jerseys! Not only
-                    will you look great, but you'll be helping us continue to
-                    bring authentic Palestinian cuisine to your table. Order now
-                    and wear your pride on your sleeve!
-                  </p>
                 </Text>
               </div>
               <div className="md:w-1/4 mx-2">
@@ -184,24 +174,18 @@ function ScrollSection() {
                   src="/images/bambi.jpeg"
                 ></img>
               </div>
+
+              <div className="md:w-1/4">
+                <Text>
+                  <img width={150} src="/images/pantry_arabic.svg"></img>
+                  <h1 className="text-7xl py-2 font-header">Shop Pantry</h1>
+                </Text>
+              </div>
               <div className="md:w-1/4 mx-2">
                 <img
                   className="border border-2 border-violet h-1/2"
                   src="/images/pantry.jpg"
                 ></img>
-              </div>
-              <div className="md:w-1/4">
-                <Text>
-                  <img width={150} src="/images/pantry_arabic.svg"></img>
-                  <h1 className="text-7xl py-2 font-header">Shop Pantry</h1>
-                  <p className="text-lg">
-                    Show your love for Baba's Pantry and support a local
-                    business by grabbing one of our branded jerseys! Not only
-                    will you look great, but you'll be helping us continue to
-                    bring authentic Palestinian cuisine to your table. Order now
-                    and wear your pride on your sleeve!
-                  </p>
-                </Text>
               </div>
             </div>
           </div>
