@@ -3,7 +3,7 @@ import styles from "./LayoutHorizontal.module.css";
 
 export default function LayoutHorizontal() {
   return (
-    <div className={styles.LayoutHorizontalComponent + ' hidden md:block'}>
+    <div className={styles.LayoutHorizontalComponent}>
       <ScrollSection />
     </div>
   );
