@@ -1,14 +1,13 @@
-import { ParentComponentProps } from '../../interfaces/ParentComponentProps';
-import styles from './LayoutVertical.module.css';
+import styles from "./LayoutVertical.module.css";
+import Text from "../Text/Text";
+import Link from "next/link";
 
-
-export interface LayoutVerticalProps extends ParentComponentProps {
-}
-
-export default function LayoutVertical(props: LayoutVerticalProps) {
-    return (
-        <div className={styles.LayoutVerticalComponent}>
-            {props.children}
-        </div>
-    );
+export default function LayoutVertical() {
+  return (
+    <div className={styles.LayoutVerticalComponent + " hidden sm:block"}>
+      <section>
+        Vertical Layout
+      </section>
+    </div>
+  );
 }

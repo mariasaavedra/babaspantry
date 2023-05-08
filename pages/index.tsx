@@ -8,6 +8,8 @@ import FullScreenMenu from "../components/FullScreenMenu/FullScreenMenu";
 import { useState } from "react";
 import Menu from "../components/Menu/Menu";
 import Logo from "../components/Logo/Logo";
+import LayoutHorizontal from "../components/LayoutHorizontal/LayoutHorizontal";
+import LayoutVertical from "../components/LayoutVertical/LayoutVertical";
 
 const Sandbox: NextPage = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,7 +30,7 @@ const Sandbox: NextPage = () => {
       <Menu toggleOpen={() => setIsOpen((prev) => !prev)}  />
       <Logo />
       <Hero />
-      <ScrollSection />
+      <LayoutHorizontal />
       <Footer />
       {isOpen && <FullScreenMenu handleClose={close}></FullScreenMenu>}
     </div>
