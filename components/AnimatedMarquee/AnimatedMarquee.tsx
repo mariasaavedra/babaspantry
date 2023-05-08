@@ -1,13 +1,9 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import styles from "./AnimatedMarquee.module.css";
 
-export interface AnimatedMarqueeProps {
-  toggleOpen: any;
-}
-
-export default function AnimatedMarquee(props: AnimatedMarqueeProps) {
+export default function AnimatedMarquee() {
   gsap.registerPlugin(ScrollTrigger);
   const body = useRef("#content");
   const topRef = useRef("#top");

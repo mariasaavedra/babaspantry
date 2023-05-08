@@ -1,7 +1,5 @@
 .LogoComponent {
-
 }
-
 
 @keyframes spin {
   0% {
@@ -11,7 +9,6 @@
     -webkit-transform: rotate(360deg);
   }
 }
-  
 
 .clipPath {
   transform: scale(2, 2);

@@ -24,8 +24,8 @@ const Sandbox: NextPage = () => {
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
       </Head>
-      <AnimatedMarquee toggleOpen={() => setIsOpen((prev) => !prev)} />
-      <Menu />
+      <AnimatedMarquee/>
+      <Menu toggleOpen={() => setIsOpen((prev) => !prev)}  />
       <Logo />
 
       <Hero />
