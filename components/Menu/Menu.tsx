@@ -1,13 +1,12 @@
 import styles from "./Menu.module.css";
 
 export interface MenuProps {
-    toggleOpen: () => void;
+  toggleOpen: () => void;
 }
 
 export default function Menu(props: MenuProps) {
   return (
-    <div className={styles.MenuComponent}>
-      {/* Menu */}
+
       <div
         onClick={props.toggleOpen}
         className={
@@ -21,6 +20,6 @@ export default function Menu(props: MenuProps) {
           src="/images/menu.svg"
         ></img>
       </div>
-    </div>
+
   );
 }

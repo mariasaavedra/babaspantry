@@ -1,9 +1,7 @@
 .MenuComponent {
-    display: flex;
-    cursor: pointer;
-    z-index: 105;
-    position: absolute;
-    &:hover {
-      animation: spin 10s infinite;
-    }
+  display: flex;
+  cursor: pointer;
+  &:hover {
+    animation: spin 10s infinite;
+  }
 }

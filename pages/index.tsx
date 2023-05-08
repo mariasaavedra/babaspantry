@@ -6,7 +6,7 @@ import Hero from "../components/Hero/Hero";
 import ScrollSection from "../components/ScrollSection/ScrollSection";
 import FullScreenMenu from "../components/FullScreenMenu/FullScreenMenu";
 import { useState } from "react";
-import { Menu } from "@headlessui/react";
+import Menu from "../components/Menu/Menu";
 import Logo from "../components/Logo/Logo";
 
 const Sandbox: NextPage = () => {
@@ -15,7 +15,7 @@ const Sandbox: NextPage = () => {
     setIsOpen(false);
   };
   return (
-    <div className="">
+    <div className="relative">
       <Head>
         <title>Baba's Pantry</title>
         <link rel="icon" href="/favicon.ico" />
@@ -25,8 +25,9 @@ const Sandbox: NextPage = () => {
         />
       </Head>
       <AnimatedMarquee toggleOpen={() => setIsOpen((prev) => !prev)} />
-      <Logo />
       <Menu />
+      <Logo />
+
       <Hero />
       <ScrollSection />
       <Footer />
