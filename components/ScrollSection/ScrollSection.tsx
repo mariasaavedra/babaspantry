@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import AnimatedButton from "../AnimatedButton/AnimatedButton";
 import Text from "../Text/Text";
 import Link from "next/link";
 

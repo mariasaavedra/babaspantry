@@ -1,25 +1,9 @@
 .MenuComponent {
-  height: 100%;
-  min-width: 100px;
-  max-width: 100px;
-  display: flex;
-  cursor: pointer;
-  border-radius: 1px solid white;
-  animation: spin 10s infinite;
-  img {
-    margin: 0 auto;
-    text-align: center;
-    padding: 10px;
-  }
-  &:hover {
-    animation: spin 10s infinite;
-  }
-}
-@keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-  }
+    display: flex;
+    cursor: pointer;
+    z-index: 105;
+    position: absolute;
+    &:hover {
+      animation: spin 10s infinite;
+    }
 }
