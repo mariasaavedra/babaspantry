@@ -11,26 +11,32 @@ function ScrollSection() {
 
   gsap.registerPlugin(ScrollTrigger);
 
+  //responsive
+  let mm = gsap.matchMedia();
+
   useEffect(() => {
     if (sectionRef && sectionRef.current) {
-      const pin = gsap.fromTo(
-        sectionRef.current,
-        {
-          translateX: 0,
-        },
-        {
-          translateX: "-300vw",
-          ease: "none",
-          duration: 1,
-          scrollTrigger: {
-            trigger: triggerRef.current,
-            start: "top top",
-            end: "2000 top",
-            scrub: 0.6,
-            pin: true,
+      const pin = mm.add("(min-width: 800px)", () => {
+        gsap.fromTo(
+          sectionRef.current,
+          {
+            translateX: 0,
           },
-        }
-      );
+          {
+            translateX: "-300vw",
+            ease: "none",
+            duration: 1,
+            scrollTrigger: {
+              trigger: triggerRef.current,
+              start: "top top",
+              end: "2000 top",
+              scrub: 0.6,
+              pin: true,
+            },
+          }
+        );
+      });
+
       return () => {
         {
           /* A return function for killing the animation on component unmount */
@@ -141,7 +147,8 @@ function ScrollSection() {
                 <img width={200} src="/images/menu-arabic_2.svg"></img>
                 <h1 className="text-7xl py-2 font-header">Menu</h1>
                 <p className="text-lg max-w-lg">
-                  Click on the menu on the right to explore a world of mouth-watering flavors.
+                  Click on the menu on the right to explore a world of
+                  mouth-watering flavors.
                 </p>
               </Text>
               <Link className="pointer" target="_blank" href="/menu.pdf">

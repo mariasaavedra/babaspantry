@@ -27,7 +27,6 @@ const Sandbox: NextPage = () => {
       <AnimatedMarquee/>
       <Menu toggleOpen={() => setIsOpen((prev) => !prev)}  />
       <Logo />
-
       <Hero />
       <ScrollSection />
       <Footer />
