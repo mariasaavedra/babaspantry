@@ -28,37 +28,37 @@ export default function FullScreenMenu(props: FullScreenMenuProps) {
         </div>
         <div className="flex-grow flex justify-center items-center">
           <ul className="animate__animated  text-6xl flex flex-col items-center">
-            <li className="py-4 font-header">
+            <li className="md:py-4 font-header">
               <Link onClick={props.handleClose} href={"#welcome"}>
                 ABOUT
               </Link>
             </li>
-            <li className="py-4 font-header">
+            <li className="md:py-4 font-header">
               <Link onClick={props.handleClose} href={"#menu"}>
                 MENU
               </Link>
             </li>
-            <li className="py-4 font-header">
+            <li className="md:py-4 font-header">
               <Link onClick={props.handleClose} href={"#contact"}>
                 CATERING
               </Link>
             </li>
-            <li className="py-4 font-header">
+            <li className="md:py-4 font-header">
               <Link onClick={props.handleClose} href={"#merch"}>
                 MERCH
               </Link>
             </li>
-            <li className="py-4 font-header">
+            <li className="md:py-4 font-header">
               <Link onClick={props.handleClose} href={"#merch"}>
                 SHOP PANTRY
               </Link>
             </li>
-            <li className="py-4 font-header">
+            <li className="md:py-4 font-header">
               <Link onClick={props.handleClose} href={"#press"}>
                 PRESS
               </Link>
             </li>
-            <li className="py-4 font-header">
+            <li className="md:py-4 font-header">
               <Link onClick={props.handleClose} href={"#contact"}>
                 CONTACT
               </Link>

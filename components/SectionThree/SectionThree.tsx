@@ -13,14 +13,14 @@ export default function SectionThree(props: SectionThreeProps) {
           <Text>
             <img width={200} src="/images/menu-arabic_2.svg"></img>
             <h1 className="text-5xl md:text-7xl py-2 font-header">Menu</h1>
-            <p className="text-sm md:text-lg max-w-lg">
+            <p className="text-sm min-w-[150px] md:text-lg max-w-lg">
               Click on the menu on the right to explore a world of
               mouth-watering flavors.
             </p>
           </Text>
           <Link className="pointer" target="_blank" href="/menu.pdf">
             <img
-              className="border border-2 border-violet h-[70vh] mr-2"
+              className="border border-2 border-violet md:h-[70vh] mr-2"
               src="/images/MENU-FRONT.png"
             ></img>
           </Link>
