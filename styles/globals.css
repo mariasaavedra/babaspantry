@@ -52,6 +52,15 @@ body,
   box-sizing: border-box;
 }
 
+html,
+body {
+/* 
+  This is a fix for the horizontal scroll issue on mobile devices.
+ https://greensock.com/forums/topic/30673-problem-with-broken-mobile-view-on-horizontal-scroller/
+*/
+  overflow-x: clip;
+}
+
 .scroll-section-outer {
   overflow: hidden;
 }

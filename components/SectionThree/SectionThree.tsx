@@ -12,8 +12,8 @@ export default function SectionThree(props: SectionThreeProps) {
         <div className="relative items-center flex h-screen md:w-1/2 md:p-8">
           <Text>
             <img width={200} src="/images/menu-arabic_2.svg"></img>
-            <h1 className="text-7xl py-2 font-header">Menu</h1>
-            <p className="text-lg max-w-lg">
+            <h1 className="text-5xl md:text-7xl py-2 font-header">Menu</h1>
+            <p className="text-sm md:text-lg max-w-lg">
               Click on the menu on the right to explore a world of
               mouth-watering flavors.
             </p>
@@ -25,7 +25,7 @@ export default function SectionThree(props: SectionThreeProps) {
             ></img>
           </Link>
         </div>
-        <div className="relative items-center flex h-screen md:w-1/2 md:p-8 pr-0">
+        <div className="hidden md:block relative items-center flex h-screen md:w-1/2 md:p-8 pr-0">
           <img
             className="border border-2 border-violet h-screen mr-2"
             src="/images/BP_9.webp"
