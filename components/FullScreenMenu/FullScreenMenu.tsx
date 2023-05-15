@@ -39,7 +39,7 @@ export default function FullScreenMenu(props: FullScreenMenuProps) {
               </Link>
             </li>
             <li className="py-4 font-header">
-              <Link onClick={props.handleClose} href={"#catering"}>
+              <Link onClick={props.handleClose} href={"#contact"}>
                 CATERING
               </Link>
             </li>
@@ -49,7 +49,7 @@ export default function FullScreenMenu(props: FullScreenMenuProps) {
               </Link>
             </li>
             <li className="py-4 font-header">
-              <Link onClick={props.handleClose} href={"#pantry"}>
+              <Link onClick={props.handleClose} href={"#merch"}>
                 SHOP PANTRY
               </Link>
             </li>

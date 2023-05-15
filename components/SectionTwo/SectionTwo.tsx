@@ -7,7 +7,7 @@ export interface SectionTwoProps {}
 
 export default function SectionTwo(props: SectionTwoProps) {
   return (
-    <div className={styles.SectionTwoComponent}>
+    <div id="press" className={styles.SectionTwoComponent}>
       {/* Section 2 */}
       <div id="tomd:p-10" className="scroll-section bg-purple">
         <div

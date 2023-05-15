@@ -1,13 +1,16 @@
 import styles from "./SectionFour.module.css";
 import Text from "../Text/Text";
+import AnimatedButton from "../AnimatedButton/AnimatedButton";
 
 export interface SectionFourProps {}
 
 export default function SectionFour(props: SectionFourProps) {
   return (
-    <div className={styles.SectionFourComponent}>
+    <div  id="merch" className={styles.SectionFourComponent}>
       {/* Section 4 */}
-      <div className="scroll-section bg-purple">
+      <div className="scroll-section relative bg-purple">
+      <p className="font-header absolute top-[200px] text-violet text-6xl animate__animated animate__flash animate__infinite">COMING SOON</p>
+    
         <div className="relative items-center flex h-screen w-full md:p-8">
           <div className="md:w-1/4">
             <Text>

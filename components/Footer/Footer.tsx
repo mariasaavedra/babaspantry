@@ -3,7 +3,7 @@ import Text from "../Text/Text";
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer id="contact" className="footer">
       <div
         className="relative inline h-screen w-1/2 border-2 border-violet"
         style={{
@@ -32,7 +32,7 @@ function Footer() {
 
           <h1 className="mt-10 text-3xl font-header">
             We accept catering orders via our email please give us no less than
-            48 hours notice in advance.
+            48 hours notice in advance. Please list the amount of people and dishes you are interested in and we will reply with pricing and amount needed for your party.
           </h1>
         </Text>
       </div>
