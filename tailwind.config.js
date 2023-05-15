@@ -15,8 +15,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        header: ["Pilot"],
-        arabic: ["Rakkas"],
+        header: ["Pilot, sans-serif"],
+        arabic: ["Rakkas, sans-serif"],
       },
     },
   },

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./Logo.module.css";
 
 export interface LogoProps {}
@@ -19,7 +20,7 @@ export default function Logo(props: LogoProps) {
           </clipPath>
         </svg>
         {/* Logo */}
-        <div
+        <Link href="/">        <div
           id="shape"
           className={
             styles.shape +
@@ -32,7 +33,8 @@ export default function Logo(props: LogoProps) {
             height={"auto"}
             className="mx-auto text-center animate__animated  animate__infinite animate__delay-5s  animate__slower  top-[5px] ml-[20px] fixed z-10 p-3 py-1"
           ></img>
-        </div>
+        </div></Link>
+
       </div>
   );
 }
