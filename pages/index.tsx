@@ -21,13 +21,23 @@ const Sandbox: NextPage = () => {
       <Head>
         <title>Baba's Pantry</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Authentic Palestinian-American deli & cafe serving up traditional dishes with a modern twist."
+        />
+        <meta
+          name="keywords"
+          content="palestinian, american, deli, cafe, food, restaurant"
+        />
+        <meta name="author" content="Maria Saavedra"></meta>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
       </Head>
-      <AnimatedMarquee/>
-      <Menu toggleOpen={() => setIsOpen((prev) => !prev)}  />
+      <AnimatedMarquee />
+      <Menu toggleOpen={() => setIsOpen((prev) => !prev)} />
       <Logo />
       <Hero />
       <LayoutHorizontal />
