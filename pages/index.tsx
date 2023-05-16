@@ -10,6 +10,7 @@ import Menu from "../components/Menu/Menu";
 import Logo from "../components/Logo/Logo";
 import LayoutHorizontal from "../components/LayoutHorizontal/LayoutHorizontal";
 import LayoutVertical from "../components/LayoutVertical/LayoutVertical";
+import Script from "next/script";
 
 const Sandbox: NextPage = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,6 +44,20 @@ const Sandbox: NextPage = () => {
       <LayoutHorizontal />
       <Footer />
       {isOpen && <FullScreenMenu handleClose={close}></FullScreenMenu>}
+      {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-C0DEMKM865"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-C0DEMKM865);
+        `}
+      </Script>
     </div>
   );
 };
