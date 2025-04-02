@@ -18,7 +18,7 @@ const Sandbox: NextPage = () => {
     setIsOpen(false);
   };
   return (
-    <div className="relative">
+    <div className="relative bg-purple">
       <Head>
         <title>Baba's Pantry</title>
         <link rel="icon" href="/favicon.ico" />
