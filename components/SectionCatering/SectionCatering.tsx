@@ -1,66 +1,40 @@
-import styles from "./SectionCatering.module.css";
 import Text from "../Text/Text";
-import Link from "next/link";
 
-export interface SectionCateringProps {}
+export interface SectionOneProps {}
 
-export default function SectionCatering(props: SectionCateringProps) {
+export default function SectionOne(props: SectionOneProps) {
   return (
-    <div id="catering" className={styles.SectionCateringComponent}>
+    <div>
       {/* Section Catering */}
       <div className="scroll-section bg-purple">
-        <div className="relative items-center flex h-screen w-full md:p-8">
-          <div className="w-full md:w-1/2">
-            <Text>
-              <h1 className="text-5xl md:text-7xl py-2 font-header">
-                Catering & Custom Orders
-              </h1>
-              <p className="text-sm md:text-lg max-w-lg">
-                Orders accepted via our online ordering system:
-              </p>
-              <p className="mb-4">
-                <Link 
-                  href="https://order.spoton.com/so-babas-pantry-11884/kansas-city-mo/639a2a2e0d2bfd0041fd231a"
-                  className="underline text-violet"
-                >
-                  SpotOn Online Ordering
-                </Link>
-              </p>
-              <p className="text-sm md:text-lg max-w-lg">
-                <strong>48-hour advance notice policy required.</strong> Last-minute orders 
-                cannot be guaranteed and are subject to availability.
-              </p>
-              <p className="text-sm md:text-lg max-w-lg mt-4">
-                For special requests, please email us at:{" "}
-                <a 
-                  href="mailto:babapantrycatering@gmail.com"
-                  className="underline text-violet"
-                >
-                  babapantrycatering@gmail.com
-                </a>
-              </p>
-              <p className="text-sm md:text-lg max-w-lg mt-4">
-                <strong>Required information for email confirmation:</strong>
-              </p>
-              <ul className="text-sm md:text-lg list-disc pl-5 max-w-lg">
-                <li>Name</li>
-                <li>Phone number</li>
-                <li>Email address</li>
-                <li>Order confirmation number</li>
-              </ul>
-              <p className="text-sm md:text-lg max-w-lg mt-4">
-                For questions about existing orders, please contact us directly with your
-                order confirmation number.
-              </p>
-            </Text>
-          </div>
-          <div className="hidden md:block md:w-1/2">
-            <img
-              className="border border-2 border-violet h-screen"
-              src="/images/BP_7.webp"
-              alt="Catering"
-            />
-          </div>
+        <div
+          className="relative inline h-screen md:w-1/2 border-2 border-t-0 border-violet"
+          style={{
+            backgroundImage: `url("/images/BP_5.jpeg")`,
+            backgroundSize: "cover",
+          }}
+        ></div>
+        <div
+          id="catering"
+          className="relative flex items-center h-screen md:w-1/2 md:p-8"
+        >
+          <Text>
+            <img width={150} src="/images/arabic-welcome.svg"></img>
+            <h1 className="md:text-7xl text-3xl py-2 font-header">
+              Welcome to Baba's Pantry
+            </h1>
+            <p className=" text-sm md:text-lg">
+              For almost two decades, Yahia Kamal has been a prominent figure in
+              the food scene of Kansas City. However, Baba's Pantry marks
+              several significant firsts for the Palestine-born chef.
+              <br />
+              <br />
+              Every dish on the menu feels deeply personal, from the impossibly
+              crisp falafel to the smooth, velvety hummus and an array of
+              homemade sauces and seasonings. Baba's Pantry is a true expression
+              of the feeling of being at home.
+            </p>
+          </Text>
         </div>
       </div>
     </div>
