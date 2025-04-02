@@ -58,9 +58,13 @@ function ScrollSection() {
       the animation should alway be two separated refs */}
       <div ref={triggerRef}>
         <div ref={sectionRef} className="scroll-section-inner">
+          {/* Intro */}
           <SectionOne />
+          {/* Links */}
           <SectionTwo />
-          <SectionThree />
+          {/* Menu */}
+          <SectionThree /> 
+          {/*  Merchandise + Shop Pantry - this will be replaced*/}
           <SectionFour />
         </div>
       </div>
