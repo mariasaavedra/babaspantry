@@ -37,9 +37,9 @@ export default function SectionThree(props: SectionThreeProps) {
           <Text>
             <div className="h-3/4"></div>
             <div className="relative">
-              <img width={200} src="/images/menu-arabic_2.svg"></img>
+              <img width={200} className="my-4" src="/images/menu-arabic_2.svg"></img>
               <h1 className="text-5xl md:text-7xl font-header">Menu</h1>
-              <p className="text-base min-w-[150px] md:text-lg max-w-lg">
+              <p className="text-base min-w-[150px] md:text-lg my-2 max-w-lg">
                 Click on the menu below to explore a world of mouth-watering
                 flavors.
               </p>
@@ -57,11 +57,11 @@ export default function SectionThree(props: SectionThreeProps) {
             alt="Menu"
             width={500}
             height={500}
-            className="absolute bottom-0 left-0 right-0"
+            className="absolute bottom-0 max-w-[400px] md:max-w-none md:left-0 md:right-0"
           />
         </div>
         <div
-          className="relative inline h-screen md:w-1/2 border-2 border-t-0 border-violet"
+          className="relative inline h-screen md:w-1/2 "
           style={{
             backgroundImage: `url("/images/BP_5.jpeg")`,
             backgroundSize: "cover",

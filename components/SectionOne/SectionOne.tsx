@@ -21,7 +21,7 @@ export default function SectionOne(props: SectionOneProps) {
         >
           <Text>
             <img width={150} src="/images/arabic-welcome.svg"></img>
-            <h1 className="md:text-7xl text-3xl py-2 font-header">
+            <h1 className="md:text-7xl text-5xl py-2 font-header">
               Welcome to Baba's Pantry
             </h1>
             <p className=" text-lg md:text-lg">
