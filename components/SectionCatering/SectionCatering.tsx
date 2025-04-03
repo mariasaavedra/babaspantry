@@ -8,12 +8,12 @@ export default function SectionOne(props: SectionOneProps) {
     <div>
       {/* Section Catering */}
       <div className="scroll-section bg-purple w-full">
-        <Text className="relative max-w-prose p-2 md:p-8 text-violet">
+        <Text className="relative max-w-prose p-8 md:p-8 text-violet">
           <Link
             href="https://order.spoton.com/so-babas-pantry-11884/kansas-city-mo/639a2a2e0d2bfd0041fd231a"
             target="_blank"
             rel="noopener noreferrer"
-            className="absolute -right-10 bottom-40 flex items-center justify-center"
+            className="absolute -bottom-20 right-10  md:-right-10 md:bottom-40 flex items-center justify-center"
           >
             <Image
               src="/images/SVG/order-catering.svg"
