@@ -13,7 +13,7 @@ export default function SectionOne(props: SectionOneProps) {
             href="https://order.spoton.com/so-babas-pantry-11884/kansas-city-mo/639a2a2e0d2bfd0041fd231a"
             target="_blank"
             rel="noopener noreferrer"
-            className="absolute right-2 bottom-40 flex items-center justify-center"
+            className="absolute -right-10 bottom-40 flex items-center justify-center"
           >
             <Image
               src="/images/SVG/order-catering.svg"
@@ -23,7 +23,7 @@ export default function SectionOne(props: SectionOneProps) {
               className="cursor-pointer"
             />
           </Link>
-          <h1 className="text-5xl font-header">Catering</h1>
+          <h1 className="text-5xl font-header mb-2">Catering</h1>
           <div className="space-y-2 relative">
             <p className="leading-tight">
               We accept catering orders through the link provided below. Please
