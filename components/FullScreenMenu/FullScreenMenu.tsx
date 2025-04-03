@@ -44,16 +44,6 @@ export default function FullScreenMenu(props: FullScreenMenuProps) {
               </Link>
             </li>
             <li className="md:py-2 font-header">
-              <Link onClick={props.handleClose} href={"#merch"}>
-                MERCH
-              </Link>
-            </li>
-            <li className="md:py-2 font-header">
-              <Link onClick={props.handleClose} href={"#merch"}>
-                SHOP PANTRY
-              </Link>
-            </li>
-            <li className="md:py-2 font-header">
               <Link onClick={props.handleClose} href={"#press"}>
                 PRESS
               </Link>
