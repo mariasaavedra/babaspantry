@@ -53,7 +53,13 @@ export default function SectionThree(props: SectionThreeProps) {
             className="absolute bottom-0 left-0 right-0"
           />
         </div>
-        <div className="relative flex flex-col justify-start h-screen md:w-1/2 "></div>
+        <div
+          className="relative inline h-screen md:w-1/2 border-2 border-t-0 border-violet"
+          style={{
+            backgroundImage: `url("/images/BP_5.jpeg")`,
+            backgroundSize: "cover",
+          }}
+        ></div>
         {/* <div className="relative flex flex-col  md:w-1/2 ">
           <Text className="space-y-4 text-violet">
             <img width={150} src="/images/SVG/delivery.svg"></img>
