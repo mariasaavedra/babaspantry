@@ -64,10 +64,11 @@ function ScrollSection() {
           {/* Press */}
           <SectionTwo />
           {/* Menu */}
-          <SectionThree /> 
+          <SectionThree />
+          {/* Delivery */}
+          <SectionDelivery />
           {/* Catering & Custom Orders */}
           <SectionCatering />
-         
         </div>
       </div>
     </section>
