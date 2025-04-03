@@ -81,7 +81,7 @@ export default function SectionThree(props: SectionThreeProps) {
               className="gh-button-ifrm"
               data-customer-id="7085328"
               data-restaurant-name="Baba's Pantry"
-              data-button-color="#473851:#ffffff"
+              data-button-color="#1EA3D8:#ffffff"
               data-button-size="large"
               data-env="prod"
               data-shortlinkurl="http://menus.fyi/7085328"
