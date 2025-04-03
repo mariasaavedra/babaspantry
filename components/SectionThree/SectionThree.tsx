@@ -1,6 +1,7 @@
 import styles from "./SectionThree.module.css";
 import Text from "../Text/Text";
 import Link from "next/link";
+import Image from "next/image";
 
 export interface SectionThreeProps {}
 
@@ -9,28 +10,28 @@ export default function SectionThree(props: SectionThreeProps) {
     <div className={styles.SectionThreeComponent}>
       {/* Section 3 */}
       <div id="menu" className="scroll-section bg-purple">
-        <div className="relative items-center flex h-screen md:w-1/2 md:p-8">
+        <div className="relative flex flex-col justify-start h-screen md:w-1/2 ">
           <Text>
-            <img width={200} src="/images/menu-arabic_2.svg"></img>
-            <h1 className="text-5xl md:text-7xl py-2 font-header">Menu</h1>
-            <p className="text-sm min-w-[150px] md:text-lg max-w-lg">
-              Click on the menu on the right to explore a world of
-              mouth-watering flavors.
-            </p>
+            <div className="h-3/4"></div>
+            <div>
+              <img width={200} src="/images/menu-arabic_2.svg"></img>
+              <h1 className="text-5xl md:text-7xl  font-header">Menu</h1>
+              <p className="text-sm min-w-[150px] md:text-lg max-w-lg">
+                Click on the menu below to explore a world of mouth-watering
+                flavors.
+              </p>
+            </div>
           </Text>
-          <Link className="pointer" target="_blank" href="/menu.pdf">
-            <img
-              className="border border-2 border-violet md:h-[70vh] mr-2"
-              src="/images/MENU-FRONT.png"
-            ></img>
-          </Link>
+
+          <Image
+            src="/images/menu-half.png"
+            alt="Menu"
+            width={500}
+            height={500}
+            className="absolute bottom-0 left-0 right-0"
+          />
         </div>
-        <div className="hidden md:block relative items-center flex h-screen md:w-1/2 md:p-8 pr-0">
-          <img
-            className="border border-2 border-violet h-screen mr-2"
-            src="/images/BP_9.webp"
-          ></img>
-        </div>
+        <div className="w-1/2 h-screen"></div>
       </div>
     </div>
   );

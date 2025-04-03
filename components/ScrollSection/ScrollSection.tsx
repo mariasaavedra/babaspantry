@@ -61,7 +61,7 @@ function ScrollSection() {
         <div ref={sectionRef} className="scroll-section-inner">
           {/* Intro */}
           <SectionOne />
-          {/* Links */}
+          {/* Press */}
           <SectionTwo />
           {/* Menu */}
           <SectionThree /> 
