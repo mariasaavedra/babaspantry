@@ -7,8 +7,8 @@ export default function SectionOne(props: SectionOneProps) {
   return (
     <div>
       {/* Section Catering */}
-      <div className="scroll-section bg-purple p-2 md:p-8">
-        <Text className="w-1/2 text-violet">
+      <div className="scroll-section bg-purple">
+        <Text className="w-1/2 p-2 md:p-16 text-violet">
           <h1 className="text-5xl font-header">Catering</h1>
           <div className="space-y-4">
             <p>
@@ -80,6 +80,7 @@ export default function SectionOne(props: SectionOneProps) {
 
           <p className="text-left text-sm text-gray-500">Thank you!</p>
         </Text>
+        <div className="w-1/2 p-2"></div>
       </div>
     </div>
   );
