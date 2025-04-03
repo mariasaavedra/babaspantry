@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Text from "../Text/Text";
-
+import Image from "next/image";
 export interface SectionOneProps {}
 
 export default function SectionOne(props: SectionOneProps) {
@@ -8,24 +8,31 @@ export default function SectionOne(props: SectionOneProps) {
     <div>
       {/* Section Catering */}
       <div className="scroll-section bg-purple">
-        <Text className="w-1/2 p-2 md:p-16 text-violet">
+        <Text className="relative w-1/2 p-2 md:p-16 text-violet">
+          <Link
+            href="https://order.spoton.com/so-babas-pantry-11884/kansas-city-mo/639a2a2e0d2bfd0041fd231a"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="absolute right-2 bottom-40 flex items-center justify-center"
+          >
+            <Image
+              src="/images/SVG/order-catering.svg"
+              alt="Catering"
+              width={150}
+              height={150}
+              className="cursor-pointer"
+            />
+          </Link>
           <h1 className="text-5xl font-header">Catering</h1>
-          <div className="space-y-4">
-            <p>
+          <div className="space-y-2 relative">
+            <p className="leading-tight">
               We accept catering orders through the link provided below. Please
               place your order at least{" "}
               <span className="font-semibold">48 hours</span> in advance, as all
               orders must be placed online.
             </p>
-            <Link
-              href="https://order.spoton.com/so-babas-pantry-11884/kansas-city-mo/639a2a2e0d2bfd0041fd231a"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="!bg-[#1BADE0] border-violet border-[1px]  p-2 font-bold my-2 text-base rounded-md hover:bg-violet/80 transition duration-300 ease-in-out !text-primary"
-            >
-              <span> Order Catering</span>
-            </Link>
-            <p>
+
+            <p className="leading-tight">
               If an order is placed with less than 48 hours' notice, we’ll do
               our best to accommodate it, but due to time constraints, staffing,
               and ingredient availability, we may not always be able to fulfill
@@ -34,10 +41,10 @@ export default function SectionOne(props: SectionOneProps) {
           </div>
 
           <div className="hidden md:block space-y-2">
-            <h2 className="text-4xl font-light font-header">
+            <h2 className="text-4xl mt-4 font-light font-header">
               Special Requests
             </h2>
-            <p>
+            <p className="leading-tight">
               For special requests, such as weddings or custom catering orders,
               please contact us directly—ideally via email—at{" "}
               <Link
@@ -53,8 +60,8 @@ export default function SectionOne(props: SectionOneProps) {
             </p>
           </div>
 
-          <div className="space-y-1">
-            <p className="text-xl font-body">
+          <div className="space-y-2">
+            <p className="text-lg  my-2 font-body">
               When confirming an order via email, please include:
             </p>
             <ul className="list-disc text-sm list-inside space-y-1">
