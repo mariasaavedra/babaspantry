@@ -24,7 +24,7 @@ export default function SectionOne(props: SectionOneProps) {
             <h1 className="md:text-7xl text-3xl py-2 font-header">
               Welcome to Baba's Pantry
             </h1>
-            <p className=" text-sm md:text-lg">
+            <p className=" text-lg md:text-lg">
               For almost two decades, Yahia Kamal has been a prominent figure in
               the food scene of Kansas City. However, Baba's Pantry marks
               several significant firsts for the Palestine-born chef.
