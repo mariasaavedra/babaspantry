@@ -7,8 +7,8 @@ export default function SectionOne(props: SectionOneProps) {
   return (
     <div>
       {/* Section Catering */}
-      <div className="scroll-section bg-purple">
-        <Text className="relative w-1/2 p-2 md:p-16 text-violet">
+      <div className="scroll-section bg-purple w-full">
+        <Text className="relative max-w-prose p-2 md:p-8 text-violet">
           <Link
             href="https://order.spoton.com/so-babas-pantry-11884/kansas-city-mo/639a2a2e0d2bfd0041fd231a"
             target="_blank"
@@ -23,7 +23,7 @@ export default function SectionOne(props: SectionOneProps) {
               className="cursor-pointer"
             />
           </Link>
-          <h1 className="text-5xl font-header mb-2">Catering</h1>
+          <h1 className="text-5xl md:text-7xl  font-header mb-2">Catering</h1>
           <div className="space-y-2 relative">
             <p className="leading-tight">
               We accept catering orders through the link provided below. Please
@@ -41,10 +41,10 @@ export default function SectionOne(props: SectionOneProps) {
           </div>
 
           <div className="hidden md:block space-y-2">
-            <h2 className="text-4xl mt-4 font-light font-header">
+            {/* <h2 className="text-4xl mt-4 font-light font-header">
               Special Requests
-            </h2>
-            <p className="leading-tight">
+            </h2> */}
+            <p className="leading-tight my-4">
               For special requests, such as weddings or custom catering orders,
               please contact us directly—ideally via email—at{" "}
               <Link
@@ -87,7 +87,7 @@ export default function SectionOne(props: SectionOneProps) {
 
           <p className="text-left text-sm text-gray-500">Thank you!</p>
         </Text>
-        <div className="w-1/2 p-2"></div>
+        {/* <div className="w-1/2 p-2"></div> */}
       </div>
     </div>
   );

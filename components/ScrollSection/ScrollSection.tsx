@@ -27,7 +27,7 @@ function ScrollSection() {
           translateX: 0,
         },
         {
-          translateX: "-500vw",
+          translateX: "-400vw",
           ease: "none",
           duration: 1,
           scrollTrigger: {
@@ -66,11 +66,10 @@ function ScrollSection() {
           {/* Menu */}
           <SectionThree />
           {/* Delivery */}
-
           <SectionDelivery />
           {/* Catering & Custom Orders */}
           <SectionCatering />
-          <SectionOne />
+          {/* <SectionOne /> */}
         </div>
       </div>
     </section>

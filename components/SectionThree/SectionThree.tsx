@@ -36,13 +36,20 @@ export default function SectionThree(props: SectionThreeProps) {
         <div className="relative flex flex-col justify-start h-screen md:w-1/2 ">
           <Text>
             <div className="h-3/4"></div>
-            <div>
+            <div className="relative">
               <img width={200} src="/images/menu-arabic_2.svg"></img>
               <h1 className="text-5xl md:text-7xl font-header">Menu</h1>
               <p className="text-base min-w-[150px] md:text-lg max-w-lg">
                 Click on the menu below to explore a world of mouth-watering
                 flavors.
               </p>
+              <Image
+                src="/images/SVG/order-delivery.svg"
+                alt="Menu"
+                width={150}
+                height={150}
+                className="absolute z-10 -bottom-40 right-10 hidden md:block"
+              />
             </div>
           </Text>
           <Image
