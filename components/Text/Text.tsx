@@ -7,7 +7,7 @@ export interface TextProps extends MaybeParentComponentProps {
 
 export default function Text(props: TextProps) {
     return (
-        <div className={styles.TextComponent}>
+        <div className={styles.TextComponent} {...props}> 
             {props.children}
         </div>
     );

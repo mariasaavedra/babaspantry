@@ -32,9 +32,10 @@ export default function SectionDelivery(props: SectionDeliveryProps) {
     <div id="delivery" className={styles.SectionDeliveryComponent}>
       {/* Section Delivery */}
       <div className="scroll-section bg-purple">
-        <div className="relative items-center flex h-screen w-full md:p-8">
+        <div className="relative items-center flex w-full md:p-8">
           <div className="w-full md:w-1/2">
             <Text>
+            <img width={150} src="/images/SVG/delivery.svg"></img>
               <h1 className="text-5xl md:text-7xl py-2 font-header">
                 Delivery
               </h1>
@@ -75,7 +76,7 @@ export default function SectionDelivery(props: SectionDeliveryProps) {
           </div>
           <div className="hidden md:block md:w-1/2">
             <img
-              className="border border-2 border-violet h-screen"
+              className="border border-2 border-violet"
               src="/images/BP_10.webp"
               alt="Delivery"
             />
