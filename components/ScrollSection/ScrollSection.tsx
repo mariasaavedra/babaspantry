@@ -10,28 +10,23 @@ import SectionMenu from "@/components/SectionThree/SectionThree";
 import SectionPress from "@/components/SectionTwo/SectionTwo";
 
 function ScrollSection() {
-  const sectionRef = useRef(null);
-  const slideRef = useRef(null);
-  const triggerRef = useRef(null);
-
-  gsap.registerPlugin(ScrollTrigger);
-
-  //responsive
-  let mm = gsap.matchMedia();
+  const trigger = useRef(null);
+  const container = useRef(null);
+  gsap.registerPlugin(useGSAP); // register the hook to avoid React version discrepancies
 
   useGSAP(() => {
-    if (sectionRef && sectionRef.current) {
+    if (container && container.current) {
       gsap.fromTo(
-        sectionRef.current,
+        container.current,
         {
           translateX: 0,
         },
         {
-          translateX: "-600vw",
+          translateX: "-500vw",
           ease: "none",
           duration: 1,
           scrollTrigger: {
-            trigger: triggerRef.current,
+            trigger: trigger.current,
             start: "top top",
             end: "2000 top",
             scrub: 0.6,
@@ -50,8 +45,8 @@ function ScrollSection() {
       {/* The div below act just as a trigger. As the doc suggests, the trigger and 
       the animation should alway be two separated refs */}
 
-      <div ref={triggerRef}>
-        <div ref={sectionRef} className="scroll-section-inner">
+      <div ref={trigger}>
+        <div ref={container} className="scroll-section-inner">
           {/* Intro */}
           <SectionWelcome />
           {/* Press */}
