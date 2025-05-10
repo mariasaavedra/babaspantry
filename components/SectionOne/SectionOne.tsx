@@ -17,7 +17,7 @@ export default function SectionOne(props: SectionOneProps) {
             <h1 className="md:text-7xl text-5xl py-2 font-header">
               Welcome to Baba's Pantry
             </h1>
-            <p className="text-base md:text-lg">
+            <section className="text-base md:text-lg">
               <div className="mb-4">
                 For almost two decades, Yahia Kamal has been a prominent figure
                 in the food scene of Kansas City. However, Baba's Pantry marks
@@ -67,7 +67,7 @@ export default function SectionOne(props: SectionOneProps) {
                 themes and celebrate all the ways we can stay rooted in who we
                 are while building something new.
               </div>
-            </p>
+            </section>
           </Text>
         </div>
       </div>
