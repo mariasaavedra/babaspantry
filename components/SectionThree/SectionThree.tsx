@@ -7,7 +7,7 @@ import { useGSAP } from "@gsap/react";
 
 export interface SectionThreeProps {}
 
-export default function SectionThree(props: SectionThreeProps) {
+export default function SectionMenu(props: SectionThreeProps) {
   const grubhubButtonRef = useRef<HTMLDivElement>(null);
 
   useGSAP(() => {

@@ -2,12 +2,12 @@ import React, { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import SectionOne from "../SectionOne/SectionOne";
-import SectionTwo from "../SectionTwo/SectionTwo";
-import SectionThree from "../SectionThree/SectionThree";
-import SectionBakery from "../SectionBakery/SectionBakery";
-import SectionCatering from "../SectionCatering/SectionCatering";
-import SectionDelivery from "../SectionDelivery/SectionDelivery";
+import SectionBakery from "@/components/SectionBakery/SectionBakery";
+import SectionCatering from "@/components/SectionCatering/SectionCatering";
+import SectionDelivery from "@/components/SectionDelivery/SectionDelivery";
+import SectionWelcome from "@/components/SectionOne/SectionOne";
+import SectionMenu from "@/components/SectionThree/SectionThree";
+import SectionPress from "@/components/SectionTwo/SectionTwo";
 
 function ScrollSection() {
   const sectionRef = useRef(null);
@@ -49,15 +49,15 @@ function ScrollSection() {
 
       {/* The div below act just as a trigger. As the doc suggests, the trigger and 
       the animation should alway be two separated refs */}
-      
+
       <div ref={triggerRef}>
         <div ref={sectionRef} className="scroll-section-inner">
           {/* Intro */}
-          <SectionOne />
+          <SectionWelcome />
           {/* Press */}
-          <SectionTwo />
+          <SectionPress />
           {/* Menu */}
-          <SectionThree />
+          <SectionMenu />
           {/* Bakery */}
           <SectionBakery />
           {/* Delivery */}

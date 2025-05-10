@@ -3,7 +3,7 @@ import Text from "../Text/Text";
 
 export interface SectionOneProps {}
 
-export default function SectionOne(props: SectionOneProps) {
+export default function SectionWelcome(props: SectionOneProps) {
   return (
     <div className={styles.SectionOneComponent}>
       {/* Section 1 */}

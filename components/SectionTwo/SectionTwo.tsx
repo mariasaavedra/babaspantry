@@ -5,7 +5,7 @@ import styles from "./SectionTwo.module.css";
 
 export interface SectionTwoProps {}
 
-export default function SectionTwo(props: SectionTwoProps) {
+export default function SectionPress(props: SectionTwoProps) {
   return (
     <div id="press" className={styles.SectionTwoComponent}>
       {/* Section 2  - Press */}
