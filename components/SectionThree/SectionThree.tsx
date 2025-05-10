@@ -35,9 +35,13 @@ export default function SectionThree(props: SectionThreeProps) {
       <div id="menu" className="scroll-section bg-purple">
         <div className="relative flex flex-col justify-start h-screen md:w-1/2 ">
           <Text>
-            <div className="h-3/4"></div>
+            <div className="h-1/2 md:h-3/4"></div>
             <div className="relative">
-              <img width={200} className="my-4" src="/images/menu-arabic_2.svg"></img>
+              <img
+                width={200}
+                className="md:my-4"
+                src="/images/menu-arabic_2.svg"
+              ></img>
               <h1 className="text-5xl md:text-7xl font-header">Menu</h1>
               <p className="text-base min-w-[150px] md:text-lg my-2 max-w-lg">
                 Click on the menu below to explore a world of mouth-watering
@@ -48,7 +52,7 @@ export default function SectionThree(props: SectionThreeProps) {
                 alt="Menu"
                 width={150}
                 height={150}
-                className="absolute z-10 -bottom-40 right-10 hidden md:block"
+                className="absolute z-10 -bottom-40 right-2 hidden md:block"
               />
             </div>
           </Text>
@@ -57,7 +61,7 @@ export default function SectionThree(props: SectionThreeProps) {
             alt="Menu"
             width={500}
             height={500}
-            className="absolute bottom-0 max-w-[400px] md:max-w-none md:left-0 md:right-0"
+            className="absolute max-w-xs md:max-w-[400px] md:max-w-none  mx-auto left-0 bottom-0 right-0 "
           />
         </div>
         <div
@@ -67,45 +71,7 @@ export default function SectionThree(props: SectionThreeProps) {
             backgroundSize: "cover",
           }}
         ></div>
-        {/* <div className="relative flex flex-col  md:w-1/2 ">
-          <Text className="space-y-4 text-violet">
-            <img width={150} src="/images/SVG/delivery.svg"></img>
-            <h1 className="text-5xl md:text-7xl font-header ">Delivery</h1>
-            <p className="text-base md:text-lg max-w-lg">
-              Order delivery through your favorite platforms:
-            </p>
 
-            <p>
-              <Link
-                href="https://www.order.store/store/babas-pantry-kansas-city/u28uODGzXwK-28I7PDWcDg"
-                className="underline text-violet"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Order via Uber Eats
-              </Link>
-            </p>
-
-            <p className="text-base md:text-lg max-w-lg">
-              Or order through Grubhub:
-            </p>
-
-            <div
-              ref={grubhubButtonRef}
-              className="gh-button-ifrm"
-              data-customer-id="7085328"
-              data-restaurant-name="Baba's Pantry"
-              data-button-color="#1EA3D8:#ffffff"
-              data-button-size="large"
-              data-env="prod"
-              data-shortlinkurl="http://menus.fyi/7085328"
-              data-restaurant-address="1019 E 63rd St, Kansas City MO, 64110"
-              data-version="1.0"
-              data-link-type="gh"
-              data-target="_self"
-            ></div>
-          </Text>
-        </div> */}
       </div>
     </div>
   );

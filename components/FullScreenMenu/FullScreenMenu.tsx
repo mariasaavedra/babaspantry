@@ -6,6 +6,32 @@ export interface FullScreenMenuProps {
 }
 
 export default function FullScreenMenu(props: FullScreenMenuProps) {
+  const items = [
+    {
+      label: "About",
+      href: "#about",
+    },
+    {
+      label: "Press",
+      href: "#press",
+    },
+    {
+      label: "Menu",
+      href: "#menu",
+    },
+    {
+      label: "Delivery",
+      href: "#delivery",
+    },
+    {
+      label: "Catering",
+      href: "#catering",
+    },
+    {
+      label: "Contact",
+      href: "#contact",
+    },
+  ];
   return (
     <div className={styles.FullScreenMenuComponent}>
       <div className="h-screen flex flex-col">
@@ -28,31 +54,18 @@ export default function FullScreenMenu(props: FullScreenMenuProps) {
         </div>
         <div className="flex-grow flex justify-center items-center">
           <ul className="animate__animated  text-6xl flex flex-col items-center">
-            <li className="md:py-2 font-header">
-              <Link onClick={props.handleClose} href={"#welcome"}>
-                ABOUT
-              </Link>
-            </li>
-            <li className="md:py-2 font-header">
-              <Link onClick={props.handleClose} href={"#menu"}>
-                MENU
-              </Link>
-            </li>
-            <li className="md:py-2 font-header">
-              <Link onClick={props.handleClose} href={"#contact"}>
-                CATERING
-              </Link>
-            </li>
-            <li className="md:py-2 font-header">
-              <Link onClick={props.handleClose} href={"#press"}>
-                PRESS
-              </Link>
-            </li>
-            <li className="md:py-2 font-header">
-              <Link onClick={props.handleClose} href={"#contact"}>
-                CONTACT
-              </Link>
-            </li>
+            {items.map((item, index) => (
+              <li className="md:py-2 font-header">
+                <Link
+                  key={index}
+                  href={item.href}
+                  className="hover:text-yellow-500"
+                  onClick={props.handleClose}
+                >
+                  {item.label}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
       </div>

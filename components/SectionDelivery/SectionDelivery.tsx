@@ -45,7 +45,7 @@ export default function SectionDelivery(props: SectionDeliveryProps) {
               </p>
               <Link
                 href="https://www.order.store/store/babas-pantry-kansas-city/u28uODGzXwK-28I7PDWcDg"
-                className=" bg-green text-[#ffffff] px-4 py-2 rounded-md max-w-fit !font-normal mx-1 text-base"
+                className=" bg-blue text-[#ffffff] px-4 py-2 rounded-md max-w-fit !font-normal mx-1 text-base"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -54,7 +54,7 @@ export default function SectionDelivery(props: SectionDeliveryProps) {
 
               <Link
                 href="http://menus.fyi/7085328"
-                className=" bg-green text-[#ffffff] px-4 py-2 rounded-md max-w-fit !font-normal mx-1 text-base"
+                className=" bg-blue text-[#ffffff] px-4 py-2 rounded-md max-w-fit !font-normal mx-1 text-base"
                 target="_blank"
                 rel="noopener noreferrer"
               >
