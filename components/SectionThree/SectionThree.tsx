@@ -50,16 +50,14 @@ export default function SectionThree(props: SectionThreeProps) {
               </p>
             </div>
           </Text>
-          <Link href="/menu.pdf" passHref legacyBehavior>
-            <a target="_blank" rel="noopener noreferrer">
-              <Image
-                src="/images/menu-half.png"
-                alt="Menu - Click to view PDF"
-                width={500}
-                height={500}
-                className="absolute max-w-xs md:max-w-[400px] md:max-w-none mx-auto left-0 bottom-0 right-0 cursor-pointer hover:opacity-90 transition-opacity"
-              />
-            </a>
+          <Link href="/menu.pdf" passHref>
+            <Image
+              src="/images/menu-half.png"
+              alt="Menu - Click to view PDF"
+              width={500}
+              height={500}
+              className="absolute max-w-xs md:max-w-[400px] md:max-w-none mx-auto left-0 bottom-0 right-0 cursor-pointer hover:opacity-90 transition-opacity"
+            />
           </Link>
         </div>
         <div

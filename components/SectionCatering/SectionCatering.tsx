@@ -73,7 +73,7 @@ export default function SectionOne(props: SectionOneProps) {
             <p className="text-sm md:text-base">
               For any questions about an existing order, email us at{" "}
               <Link
-                style={{color: "rgb(12 116 153)"}}
+                style={{ color: "rgb(12 116 153)" }}
                 href="mailto:babapantrycatering@gmail.com"
                 className="!text-green-600 underline hover:text-green-70 inline"
               >
@@ -83,7 +83,9 @@ export default function SectionOne(props: SectionOneProps) {
             </p>
           </div>
 
-          <p className="text-left text-gray-500 text-sm md:text-base mt-2">Thank you!</p>
+          <p className="text-left text-gray-500 text-sm md:text-base mt-2">
+            Thank you!
+          </p>
         </Text>
       </div>
     </div>
