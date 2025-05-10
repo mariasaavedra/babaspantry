@@ -6,6 +6,7 @@ import Link from "next/link";
 import SectionOne from "../SectionOne/SectionOne";
 import SectionTwo from "../SectionTwo/SectionTwo";
 import SectionThree from "../SectionThree/SectionThree";
+import SectionBakery from "../SectionBakery/SectionBakery";
 import SectionCatering from "../SectionCatering/SectionCatering";
 import SectionDelivery from "../SectionDelivery/SectionDelivery";
 
@@ -27,7 +28,7 @@ function ScrollSection() {
           translateX: 0,
         },
         {
-          translateX: "-400vw",
+          translateX: "-600vw",
           ease: "none",
           duration: 1,
           scrollTrigger: {
@@ -66,6 +67,8 @@ function ScrollSection() {
           <SectionTwo />
           {/* Menu */}
           <SectionThree />
+          {/* Bakery */}
+          <SectionBakery />
           {/* Delivery */}
           <SectionDelivery />
           {/* Catering & Custom Orders */}
