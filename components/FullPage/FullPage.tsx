@@ -1,11 +1,13 @@
 "use client";
 import { useState } from "react";
-import AnimatedMarquee from "../AnimatedMarquee/AnimatedMarquee";
-import Footer from "../Footer/Footer";
-import FullScreenMenu from "../FullScreenMenu/FullScreenMenu";
-import Hero from "../Hero/Hero";
-import LayoutHorizontal from "../LayoutHorizontal/LayoutHorizontal";
-import Logo from "../Logo/Logo";
+import AnimatedMarquee from "@/components/AnimatedMarquee/AnimatedMarquee";
+import Footer from "@/components/Footer/Footer";
+import FullScreenMenu from "@/components/FullScreenMenu/FullScreenMenu";
+import Hero from "@/components/Hero/Hero";
+import LayoutHorizontal from "@/components/LayoutHorizontal/LayoutHorizontal";
+import Logo from "@/components/Logo/Logo";
+import "@/styles/globals.css";
+import "animate.css";
 
 export interface FullPageProps {}
 
