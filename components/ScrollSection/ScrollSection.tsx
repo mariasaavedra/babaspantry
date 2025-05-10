@@ -1,5 +1,6 @@
-import React, { useRef, useEffect } from "react";
-import { gsap } from "gsap";
+import React, { useRef } from "react";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import Text from "../Text/Text";
 import Link from "next/link";
@@ -20,9 +21,9 @@ function ScrollSection() {
   //responsive
   let mm = gsap.matchMedia();
 
-  useEffect(() => {
+  useGSAP(() => {
     if (sectionRef && sectionRef.current) {
-      const pin = gsap.fromTo(
+      gsap.fromTo(
         sectionRef.current,
         {
           translateX: 0,
@@ -40,16 +41,8 @@ function ScrollSection() {
           },
         }
       );
-
-      return () => {
-        {
-          /* A return function for killing the animation on component unmount */
-        }
-        pin.kill();
-      };
-      return;
     }
-  }, []);
+  });
 
   return (
     <section className="scroll-section-outer">

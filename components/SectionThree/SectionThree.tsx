@@ -2,14 +2,15 @@ import styles from "./SectionThree.module.css";
 import Text from "../Text/Text";
 import Link from "next/link";
 import Image from "next/image";
-import { useRef, useEffect } from "react";
+import { useRef } from "react";
+import { useGSAP } from "@gsap/react";
 
 export interface SectionThreeProps {}
 
 export default function SectionThree(props: SectionThreeProps) {
   const grubhubButtonRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
+  useGSAP(() => {
     // Only run on client-side to avoid SSR issues
     if (typeof window !== "undefined" && grubhubButtonRef.current) {
       // Create script element
@@ -28,7 +29,7 @@ export default function SectionThree(props: SectionThreeProps) {
         }
       };
     }
-  }, []);
+  });
   return (
     <div className={styles.SectionThreeComponent}>
       {/* Section 3 */}

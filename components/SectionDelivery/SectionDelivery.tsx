@@ -1,4 +1,5 @@
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
+import { useGSAP } from "@gsap/react";
 import styles from "./SectionDelivery.module.css";
 import Text from "../Text/Text";
 import Link from "next/link";
@@ -8,7 +9,7 @@ export interface SectionDeliveryProps {}
 export default function SectionDelivery(props: SectionDeliveryProps) {
   const grubhubButtonRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
+  useGSAP(() => {
     // Only run on client-side to avoid SSR issues
     if (typeof window !== "undefined" && grubhubButtonRef.current) {
       // Create script element
@@ -27,7 +28,7 @@ export default function SectionDelivery(props: SectionDeliveryProps) {
         }
       };
     }
-  }, []);
+  });
 
   return (
     <div id="delivery" className={styles.SectionDeliveryComponent}>

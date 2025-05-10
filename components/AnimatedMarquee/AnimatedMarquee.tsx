@@ -1,5 +1,6 @@
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import styles from "./AnimatedMarquee.module.css";
 
@@ -9,7 +10,7 @@ export default function AnimatedMarquee() {
   const topRef = useRef("#top");
   const bottomRef = useRef("#bottom");
 
-  useEffect(() => {
+  useGSAP(() => {
     const top = topRef.current;
     const bottom = bottomRef.current;
     const config = {
