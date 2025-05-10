@@ -33,10 +33,10 @@ export default function SectionThree(props: SectionThreeProps) {
     <div className={styles.SectionThreeComponent}>
       {/* Section 3 */}
       <div id="menu" className="scroll-section bg-purple">
-        <div className="relative flex flex-col justify-start h-screen md:w-1/2 ">
+        <div className="relative flex flex-col h-screen md:w-1/2 ">
           <Text>
-            <div className="h-1/2 md:h-3/4"></div>
-            <div className="relative">
+            <div className="h-3/4"></div>
+            <div className="relative mt-8">
               <img
                 width={200}
                 className="md:my-4"
@@ -47,22 +47,19 @@ export default function SectionThree(props: SectionThreeProps) {
                 Click on the menu below to explore a world of mouth-watering
                 flavors.
               </p>
-              <Image
-                src="/images/SVG/order-delivery.svg"
-                alt="Menu"
-                width={150}
-                height={150}
-                className="absolute z-10 -bottom-40 right-2 hidden md:block"
-              />
             </div>
           </Text>
-          <Image
-            src="/images/menu-half.png"
-            alt="Menu"
-            width={500}
-            height={500}
-            className="absolute max-w-xs md:max-w-[400px] md:max-w-none  mx-auto left-0 bottom-0 right-0 "
-          />
+          <Link href="/menu.pdf" passHref legacyBehavior>
+            <a target="_blank" rel="noopener noreferrer">
+              <Image
+                src="/images/menu-half.png"
+                alt="Menu - Click to view PDF"
+                width={500}
+                height={500}
+                className="absolute max-w-xs md:max-w-[400px] md:max-w-none mx-auto left-0 bottom-0 right-0 cursor-pointer hover:opacity-90 transition-opacity"
+              />
+            </a>
+          </Link>
         </div>
         <div
           className="relative inline h-screen md:w-1/2 "
@@ -71,7 +68,6 @@ export default function SectionThree(props: SectionThreeProps) {
             backgroundSize: "cover",
           }}
         ></div>
-
       </div>
     </div>
   );
