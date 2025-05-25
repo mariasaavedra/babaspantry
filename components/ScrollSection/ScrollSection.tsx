@@ -6,6 +6,7 @@ import SectionBakery from "@/components/SectionBakery/SectionBakery";
 import SectionCatering from "@/components/SectionCatering/SectionCatering";
 import SectionDelivery from "@/components/SectionDelivery/SectionDelivery";
 import SectionWelcome from "@/components/SectionOne/SectionOne";
+import SectionWelcomePartTwo from "@/components/SectionWelcomePartTwo/SectionWelcomePartTwo";
 import SectionMenu from "@/components/SectionThree/SectionThree";
 import SectionPress from "@/components/SectionTwo/SectionTwo";
 
@@ -18,6 +19,7 @@ function ScrollSection() {
   
   const sections = [
     { component: <SectionWelcome />, id: "welcome" },
+    { component: <SectionWelcomePartTwo />, id: "welcome-story" },
     { component: <SectionPress />, id: "press" },
     { component: <SectionMenu />, id: "menu" },
     { component: <SectionBakery />, id: "bakery" },

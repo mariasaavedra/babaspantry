@@ -1,0 +1,37 @@
+.SectionWelcomePartTwoComponent {
+  /* Base styling */
+}
+
+.storyConnector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.storyLine {
+  width: 2px;
+  height: 50px;
+  background: linear-gradient(to bottom, transparent, currentColor);
+  margin-bottom: 0.5rem;
+}
+
+.storyIcon {
+  font-size: 1.5rem;
+  animation: pulse 2s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+}
