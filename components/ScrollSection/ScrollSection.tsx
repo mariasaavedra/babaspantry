@@ -19,7 +19,6 @@ function ScrollSection() {
   
   const sections = [
     { component: <SectionWelcome />, id: "welcome" },
-    { component: <SectionWelcomePartTwo />, id: "welcome-story" },
     { component: <SectionPress />, id: "press" },
     { component: <SectionMenu />, id: "menu" },
     { component: <SectionBakery />, id: "bakery" },
