@@ -37,12 +37,12 @@ function ScrollSection() {
         start: "top top",
         end: () => `+=${(totalSections - 1) * window.innerHeight}`,
         scrub: 1,
-        snap: {
-          snapTo: 1 / (totalSections - 1), // Snap to each section
-          duration: { min: 0.2, max: 0.3 },
-          delay: 0.1,
-          ease: "power1.inOut"
-        }
+        // snap: {
+        //   snapTo: 1 / (totalSections - 1), // Snap to each section
+        //   duration: { min: 0.2, max: 0.3 },
+        //   delay: 0.1,
+        //   ease: "power1.inOut"
+        // }
       }
     });
     // Add each section to the timeline

@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
+import { Button } from "@headlessui/react";
 
 export interface SectionThreeProps {}
 
@@ -36,7 +37,7 @@ export default function SectionMenu(props: SectionThreeProps) {
       <div id="menu" className="scroll-section bg-purple">
         <div className="relative flex flex-col h-screen md:w-1/2 ">
           <Text>
-            <div className="h-3/4"></div>
+            <div className="h-2/4"></div>
             <div className="relative mt-8">
               <img
                 width={200}
@@ -48,6 +49,11 @@ export default function SectionMenu(props: SectionThreeProps) {
                 Click on the menu below to explore a world of mouth-watering
                 flavors.
               </p>
+              <Button>
+                <Link href="/menu.pdf" passHref>
+                  View Full Menu
+                </Link>
+              </Button>
             </div>
           </Text>
           <Link href="/menu.pdf" passHref>
