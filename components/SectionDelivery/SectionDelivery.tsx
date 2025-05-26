@@ -14,7 +14,6 @@ export default function SectionDelivery(props: SectionDeliveryProps) {
       imagePosition="right"
       content={
         <div>
-          <img width={150} src="/images/SVG/delivery.svg" alt="Delivery icon" />
           <Text>
             <p className="text-lg mb-6">
               Order delivery through your favorite platforms:

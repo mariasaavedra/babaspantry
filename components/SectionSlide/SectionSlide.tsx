@@ -39,17 +39,21 @@ export const SectionSlide: React.FC<SectionSlideProps> = ({
       <div
         className={`${
           hasImage ? "md:w-1/2 w-full h-1/2 md:h-full" : "w-full h-full"
-        } bg-[#e4c8ec] p-8 flex flex-col justify-center items-start text-left space-y-6`}
+        } bg-[#e4c8ec] p-16 flex flex-col justify-center items-start text-left space-y-6`}
       >
-        <div>
-          <h2 className="text-5xl font-header text-purple-900">{title}</h2>
-          {arabicWord && (
-            <p className="text-6xl mt-2 font-arabic text-blue !stroke-violet !stroke-2 ">
-              {arabicWord}
-            </p>
-          )}
-        </div>
-        <div className="text-lg text-gray-800 leading-relaxed">{content}</div>
+        <header>
+          <div className="flex flex-col space-y-8">
+            {arabicWord && (
+              <p className="text-6xl font-arabic text-blue !stroke-violet !stroke-2 ">
+                {arabicWord}
+              </p>
+            )}
+            <h2 className="text-7xl font-header text-purple-900">{title}</h2>
+            <div className="text-lg text-gray-800 leading-relaxed">
+              {content}
+            </div>
+          </div>
+        </header>
       </div>
 
       {/* Image Right */}
