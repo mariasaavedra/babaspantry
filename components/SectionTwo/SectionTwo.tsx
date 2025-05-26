@@ -63,7 +63,7 @@ export default function SectionPress(props: SectionTwoProps) {
       title="Press"
       arabicWord="صحافة"
       content={
-        <div className="grid gap-6 md:grid-cols-2">
+        <section>
           {pressItems.map(({ type, title, desc, link, linkText }) => (
             <div key={title} className="space-y-2">
               <div className="flex items-center gap-2">
@@ -75,7 +75,7 @@ export default function SectionPress(props: SectionTwoProps) {
               </Button>
             </div>
           ))}
-        </div>
+        </section>
       }
     />
   );

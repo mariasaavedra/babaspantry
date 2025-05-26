@@ -28,7 +28,7 @@ export default function SectionCatering(props: SectionCateringProps) {
           </Link>
 
           <Text>
-            <div className="space-y-4">
+            <div className="space-y-4 max-w-prose">
               <p className="text-base">
                 We accept catering orders through the link provided below. Please
                 place your order at least{" "}

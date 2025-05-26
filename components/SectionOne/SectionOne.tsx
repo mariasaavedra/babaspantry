@@ -11,37 +11,39 @@ gsap.registerPlugin(ScrollTrigger);
 export interface SectionOneProps {}
 
 export default function SectionWelcome(props: SectionOneProps) {
-  const titleRef = useRef(null);
-  const textRef = useRef(null);
-  const imageRef = useRef(null); // unused but kept for extensibility
+  // const titleRef = useRef(null);
+  // const textRef = useRef(null);
+  // const imageRef = useRef(null); // unused but kept for extensibility
 
-  useGSAP(() => {
-    if (titleRef.current && textRef.current) {
-      const tl = gsap.timeline({
-        scrollTrigger: {
-          trigger: titleRef.current,
-          start: "top 80%",
-          toggleActions: "play none none reverse",
-        },
-      });
+  // useGSAP(() => {
+  //   if (titleRef.current && textRef.current) {
+  //     const tl = gsap.timeline({
+  //       scrollTrigger: {
+  //         trigger: titleRef.current,
+  //         start: "top 80%",
+  //         toggleActions: "play none none reverse",
+  //       },
+  //     });
 
-      tl.fromTo(
-        titleRef.current,
-        { opacity: 0, y: -30 },
-        { opacity: 1, y: 0, duration: 0.8 }
-      ).fromTo(
-        textRef.current,
-        { opacity: 0, y: 30 },
-        { opacity: 1, y: 0, duration: 0.8 },
-        "-=0.4"
-      );
-    }
-  }, []);
+  //     tl.fromTo(
+  //       titleRef.current,
+  //       { opacity: 0, y: -30 },
+  //       { opacity: 1, y: 0, duration: 0.8 }
+  //     ).fromTo(
+  //       textRef.current,
+  //       { opacity: 0, y: 30 },
+  //       { opacity: 1, y: 0, duration: 0.8 },
+  //       "-=0.4"
+  //     );
+  //   }
+  // }, []);
 
   return (
     <SectionSlide
       title="Welcome to Baba's Pantry"
       arabicWord="مرحبا"
+      imageSrc="/images/BP_5.jpeg"
+      imagePosition="left"
       content={
         <>
           <Text>

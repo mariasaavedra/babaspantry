@@ -23,7 +23,7 @@ export const SectionSlide: React.FC<SectionSlideProps> = ({
   const hasImage = Boolean(imageSrc);
 
   return (
-    <section className="w-screen h-screen flex flex-col md:flex-row">
+    <section className=" w-screen h-screen flex flex-col md:flex-row overflow-hidden">
       {/* Image Left */}
       {hasImage && isImageLeft && (
         <div className="md:w-1/2 w-full h-1/2 md:h-full overflow-hidden">
@@ -49,7 +49,7 @@ export const SectionSlide: React.FC<SectionSlideProps> = ({
               </p>
             )}
             <h2 className="text-7xl font-header text-purple-900">{title}</h2>
-            <div className="text-lg text-gray-800 leading-relaxed">
+            <div className="text-base text-gray-800 leading-relaxed">
               {content}
             </div>
           </div>
