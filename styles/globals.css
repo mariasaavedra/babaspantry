@@ -52,8 +52,10 @@ body,
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-weight: 600;
+  font-weight: 300;
   color: #473851;
+  font-family: "Futura", "Plus Jakarta Sans", "Gill Sans", "Gill Sans MT",
+    Calibri, "Trebuchet MS", sans-serif;
 }
 
 html,

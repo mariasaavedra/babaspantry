@@ -44,7 +44,7 @@ export const SectionSlide: React.FC<SectionSlideProps> = ({
         <div>
           <h2 className="text-5xl font-header text-purple-900">{title}</h2>
           {arabicWord && (
-            <p className="text-2xl mt-2 text-purple-700 font-arabic">
+            <p className="text-6xl mt-2 font-arabic text-blue !stroke-violet !stroke-2 ">
               {arabicWord}
             </p>
           )}

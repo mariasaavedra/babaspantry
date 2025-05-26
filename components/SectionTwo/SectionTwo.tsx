@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Text from "../Text/Text";
 import { Button } from "@headlessui/react";
+import { SectionSlide } from "../SectionSlide/SectionSlide";
 
 export interface SectionTwoProps {}
 
@@ -58,26 +59,24 @@ export default function SectionPress(props: SectionTwoProps) {
   ];
 
   return (
-    <div id="press" className="bg-purple min-h-screen text-white p-24">
-      <div className="mb-10">
-        <img src="/images/press-arabic.svg" alt="Press" className="w-48" />
-        <h1 className="text-6xl font-header mt-4">Press</h1>
-      </div>
-
-      <div className="grid gap-6 md:grid-cols-2">
-        {pressItems.map(({ type, title, desc, link, linkText }) => (
-          <div key={title} className="space-y-2">
-            <div className="flex items-center gap-2">
-              {/* <span>{type === "article" ? "📰" : "🎧"}</span> */}
-              <h3 className="text-xl">{title}</h3>
+    <SectionSlide
+      title="Press"
+      arabicWord="صحافة"
+      content={
+        <div className="grid gap-6 md:grid-cols-2">
+          {pressItems.map(({ type, title, desc, link, linkText }) => (
+            <div key={title} className="space-y-2">
+              <div className="flex items-center gap-2">
+                <h3 className="text-xl">{title}</h3>
+              </div>
+              <p className="text-sm">{desc}</p>
+              <Button as={Link} href={link} target="_blank">
+                {linkText}
+              </Button>
             </div>
-            <p className="text-sm">{desc}</p>
-            <Button as={Link} href={link} target="_blank">
-              {linkText}
-            </Button>
-          </div>
-        ))}
-      </div>
-    </div>
+          ))}
+        </div>
+      }
+    />
   );
 }
