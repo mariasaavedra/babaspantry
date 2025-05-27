@@ -42,7 +42,7 @@ export default function SectionWelcome(props: SectionOneProps) {
     <SectionSlide
       title="Welcome to Baba's Pantry"
       arabicWord="مرحبا"
-      imageSrc="/images/BP_5.jpeg"
+      imageSrc="/images/BP_1.jpeg"
       imagePosition="left"
       content={
         <>

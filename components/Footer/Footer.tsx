@@ -3,7 +3,7 @@ import Text from "../Text/Text";
 
 function Footer() {
   return (
-    <footer id="contact" className="footer">
+    <footer id="contact" className="footer bg-lilac">
       <div
         className="hidden md:block relative inline h-screen w-1/2 border-2 border-violet"
         style={{
@@ -12,7 +12,7 @@ function Footer() {
           backgroundPosition: "bottom",
         }}
       ></div>
-      <div className="relative  flex  py-2 items-center  h-screen md:w-1/2 md:p-8 bg-purple">
+      <div className="relative  flex  py-2 items-center  h-screen md:w-1/2 md:p-8">
         <Text>
           <img width={150} src="/images/contact-arabic.svg"></img>
           <h1 className="font-header py-2 text-5xl md:text-7xl">Contact Us</h1>

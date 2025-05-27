@@ -8,6 +8,7 @@ import LayoutHorizontal from "@/components/LayoutHorizontal/LayoutHorizontal";
 import Logo from "@/components/Logo/Logo";
 import "@/styles/globals.css";
 import "animate.css";
+import Menu from "../Menu/Menu";
 
 export interface FullPageProps {}
 
@@ -18,6 +19,7 @@ export default function FullPage(props: FullPageProps) {
       <AnimatedMarquee />
       <Logo />
       <Hero />
+      <Menu toggleOpen={() => setIsOpen((o) => !o)} />
       <LayoutHorizontal />
       <Footer />
       {isOpen && <FullScreenMenu handleClose={close}></FullScreenMenu>}

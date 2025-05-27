@@ -11,7 +11,7 @@ export default function SectionCatering(props: SectionCateringProps) {
       title="Catering"
       arabicWord="تقديم الطعام"
       content={
-        <div className="relative">
+        <div className="relative flex flex-row">
           <Link
             href="https://order.spoton.com/so-babas-pantry-11884/kansas-city-mo/639a2a2e0d2bfd0041fd231a"
             target="_blank"
@@ -30,22 +30,23 @@ export default function SectionCatering(props: SectionCateringProps) {
           <Text>
             <div className="space-y-4 max-w-prose">
               <p className="text-base">
-                We accept catering orders through the link provided below. Please
-                place your order at least{" "}
-                <span className="font-semibold">48 hours</span> in advance, as all
-                orders must be placed online.
+                We accept catering orders through the link provided below.
+                Please place your order at least{" "}
+                <span className="font-semibold">48 hours</span> in advance, as
+                all orders must be placed online.
               </p>
 
               <p className="hidden md:block">
                 If an order is placed with less than 48 hours' notice, we'll do
-                our best to accommodate it, but due to time constraints, staffing,
-                and ingredient availability, we may not always be able to fulfill
-                last-minute requests. We appreciate your understanding!
+                our best to accommodate it, but due to time constraints,
+                staffing, and ingredient availability, we may not always be able
+                to fulfill last-minute requests. We appreciate your
+                understanding!
               </p>
 
               <p>
-                For special requests, such as weddings or custom catering orders,
-                please contact us directly—ideally via email—at{" "}
+                For special requests, such as weddings or custom catering
+                orders, please contact us directly—ideally via email—at{" "}
                 <Link
                   href="mailto:babapantrycatering@gmail.com"
                   className="text-blue-600 underline hover:text-blue-700"
@@ -81,6 +82,13 @@ export default function SectionCatering(props: SectionCateringProps) {
               <p className="text-gray-600">Thank you!</p>
             </div>
           </Text>
+          <Image
+            src="/images/BP_3.jpeg"
+            alt="Catering"
+            width={300}
+            height={100}
+            className="mt-8 mx-auto  object-contain w-full max-w-md md:max-w-md"
+          />
         </div>
       }
     />

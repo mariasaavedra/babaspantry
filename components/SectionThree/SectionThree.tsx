@@ -28,6 +28,7 @@ export default function SectionMenu(props: SectionThreeProps) {
   return (
     <SectionSlide
       title="Menu"
+      subtitle=" Click on the menu below to explore a world of mouth-watering  flavors."
       arabicWord="قائمة الطعام"
       imageSrc="/images/BP_5.jpeg"
       imageAlt="Baba's Pantry menu display"
@@ -35,11 +36,7 @@ export default function SectionMenu(props: SectionThreeProps) {
       content={
         <>
           <Text>
-            <p className="text-base min-w-[150px] md:text-lg my-2 max-w-lg">
-              Click on the menu below to explore a world of mouth-watering
-              flavors.
-            </p>
-            <Button className="mt-4">
+            <Button className="mt-4 bg-green py-2 font-thin px-4 rounded-full text-white">
               <Link href="/menu.pdf" passHref>
                 View Full Menu
               </Link>

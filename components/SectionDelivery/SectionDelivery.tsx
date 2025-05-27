@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Text from "../Text/Text";
 import { SectionSlide } from "../SectionSlide/SectionSlide";
 
 export interface SectionDeliveryProps {}
@@ -13,31 +12,28 @@ export default function SectionDelivery(props: SectionDeliveryProps) {
       imageAlt="Delivery"
       imagePosition="right"
       content={
-        <div>
-          <Text>
-            <p className="text-lg mb-6">
-              Order delivery through your favorite platforms:
-            </p>
-            <div className="space-x-2">
-              <Link
-                href="https://www.order.store/store/babas-pantry-kansas-city/u28uODGzXwK-28I7PDWcDg"
-                className="bg-blue text-white px-4 py-2 rounded-md font-normal text-base inline-block"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Uber Eats
-              </Link>
-
-              <Link
-                href="http://menus.fyi/7085328"
-                className="bg-blue text-white px-4 py-2 rounded-md font-normal text-base inline-block"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GrubHub
-              </Link>
-            </div>
-          </Text>
+        <div className="space-y-6">
+          <p className="text-lg text-neutral-700">
+            Order delivery through your favorite platforms:
+          </p>
+          <div className="flex flex-wrap gap-4">
+            <Link
+              href="https://www.order.store/store/babas-pantry-kansas-city/u28uODGzXwK-28I7PDWcDg"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-5 py-2.5 rounded-xl bg-blue text-white text-sm font-medium transition-colors shadow-md hover:shadow-lg"
+            >
+              Uber Eats
+            </Link>
+            <Link
+              href="http://menus.fyi/7085328"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-5 py-2.5 rounded-xl bg-blue text-white text-sm font-medium transition-colors shadow-md hover:shadow-lg"
+            >
+              Grubhub
+            </Link>
+          </div>
         </div>
       }
     />

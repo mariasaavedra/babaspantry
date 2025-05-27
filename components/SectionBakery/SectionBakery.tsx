@@ -7,8 +7,8 @@ export default function SectionBakery(props: SectionBakeryProps) {
   return (
     <SectionSlide
       title="Bakery"
-      arabicWord=""
-      imageSrc="/images/BP_6.webp"
+      arabicWord="مخبز"
+      imageSrc="/images/BP_9.webp"
       imageAlt="Baba's Pantry exterior with family"
       imagePosition="right"
       content={

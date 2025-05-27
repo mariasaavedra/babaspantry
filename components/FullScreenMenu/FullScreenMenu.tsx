@@ -55,11 +55,11 @@ export default function FullScreenMenu(props: FullScreenMenuProps) {
         <div className="flex-grow flex justify-center items-center">
           <ul className="animate__animated  text-6xl flex flex-col items-center">
             {items.map((item, index) => (
-              <li className="md:py-2 font-header">
+              <li className="md:py-2">
                 <Link
                   key={index}
                   href={item.href}
-                  className="hover:text-yellow-500"
+                  className="hover:text-yellow-500  !font-header"
                   onClick={props.handleClose}
                 >
                   {item.label}

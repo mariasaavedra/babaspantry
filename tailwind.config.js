@@ -10,8 +10,12 @@ module.exports = {
       blue: "#1da3d8",
       orange: "#fc993e",
       green: "#86ac53",
-      purple: "#cdb4db",
-      violet: "#473851"
+      // purple: "#cdb4db",
+      purple: "#151818",
+      lilac: "#dbcaea",
+      violet: "#473851",
+      white: "#ffffff",
+      magenta: "#ac82d1"
     },
     extend: {
       fontFamily: {
