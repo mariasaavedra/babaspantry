@@ -6,20 +6,18 @@ export interface MenuProps {
 
 export default function Menu(props: MenuProps) {
   return (
-
-      <div
-        onClick={props.toggleOpen}
-        className={
-          styles.MenuComponent +
-          " cursor-pointer spin fixed top-[-5px] right-[-5px] z-10 p-4 rounded-full top-[1px]  bg-[#dbcaea]"
-        }
-      >
-        <img
-          width={70}
-          className="animate__animated animate__shakeY"
-          src="/images/menu.svg"
-        ></img>
-      </div>
-
+    <div
+      onClick={props.toggleOpen}
+      className={
+        styles.MenuComponent +
+        " cursor-pointer spin fixed top-[2px] right-[-5px] z-10 p-4 rounded-full bg-[#dbcaea]"
+      }
+    >
+      <img
+        width={60}
+        className="animate__animated animate__shakeY"
+        src="/images/menu.svg"
+      ></img>
+    </div>
   );
 }

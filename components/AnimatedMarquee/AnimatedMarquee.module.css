@@ -9,7 +9,7 @@
   height: 100vh;
   font-weight: 700;
   overflow-y: hidden;
-  overflow-x: scroll;
+  overflow-x: clip;
   text-transform: uppercase;
   wrap: nowrap;
   z-index: 10;

@@ -36,7 +36,7 @@ export default function SectionMenu(props: SectionThreeProps) {
       content={
         <>
           <Text>
-            <Button className="mt-4 bg-green py-2 font-thin px-4 rounded-full text-white">
+            <Button className=" bg-green py-2 font-thin px-4 rounded-full text-white">
               <Link href="/menu.pdf" passHref>
                 View Full Menu
               </Link>
@@ -49,7 +49,7 @@ export default function SectionMenu(props: SectionThreeProps) {
               alt="Menu - Click to view PDF"
               width={500}
               height={500}
-              className="mt-8 mx-auto cursor-pointer hover:opacity-90 transition-opacity max-w-xs md:max-w-none"
+              className="bottom-0 mt-8 mx-auto cursor-pointer hover:opacity-90 transition-opacity max-w-xs md:max-w-none"
             />
           </Link>
 

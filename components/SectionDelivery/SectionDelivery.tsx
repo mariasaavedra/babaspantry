@@ -21,7 +21,7 @@ export default function SectionDelivery(props: SectionDeliveryProps) {
               href="https://www.order.store/store/babas-pantry-kansas-city/u28uODGzXwK-28I7PDWcDg"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center px-5 py-2.5 rounded-xl bg-blue text-white text-sm font-medium transition-colors shadow-md hover:shadow-lg"
+              className="inline-flex items-center px-5 py-2.5 rounded-xl bg-green text-white text-sm font-medium transition-colors shadow-md hover:shadow-lg"
             >
               Uber Eats
             </Link>
@@ -29,7 +29,7 @@ export default function SectionDelivery(props: SectionDeliveryProps) {
               href="http://menus.fyi/7085328"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center px-5 py-2.5 rounded-xl bg-blue text-white text-sm font-medium transition-colors shadow-md hover:shadow-lg"
+              className="inline-flex items-center px-5 py-2.5 rounded-xl bg-green text-white text-sm font-medium transition-colors shadow-md hover:shadow-lg"
             >
               Grubhub
             </Link>

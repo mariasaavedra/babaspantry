@@ -63,7 +63,7 @@ export default function SectionPress(props: SectionTwoProps) {
       subtitle="Baba's Pantry has been featured in various media outlets, showcasing our unique offerings and community impact."
       arabicWord="صحافة"
       inlineTitle
-      contentClassName="!justify-start items-start pt-32"
+      contentClassName="!justify-start items-start p-32 pt-32"
       content={
         <section className="flex flex-col md:flex-row gap-8 w-full">
           <div className="flex-1">
