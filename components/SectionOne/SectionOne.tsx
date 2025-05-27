@@ -45,8 +45,8 @@ export default function SectionWelcome(props: SectionOneProps) {
       content={
         <>
           <Text>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-base leading-relaxed">
-              <div className="space-y-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-32  text-base leading-relaxed">
+              <div className="max-w-prose space-y-6">
                 <p>
                   We’re all about sharing the vibrant flavors of Palestine—right
                   here in Kansas City.
@@ -75,7 +75,7 @@ export default function SectionWelcome(props: SectionOneProps) {
                 </p>
               </div>
 
-              <div className="space-y-6">
+              <div className="max-w-prose space-y-6">
                 <p>
                   Our take on Palestinian food is shaped by living in the
                   diaspora. We celebrate the creativity that comes from adapting
@@ -100,7 +100,6 @@ export default function SectionWelcome(props: SectionOneProps) {
                 </p>
               </div>
             </div>
-
           </Text>
         </>
       }
