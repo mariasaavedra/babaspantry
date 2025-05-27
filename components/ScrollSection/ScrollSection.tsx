@@ -2,6 +2,7 @@
 import React, { useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { SplitText } from "gsap/SplitText";
 import { useGSAP } from "@gsap/react";
 
 import SectionWelcome from "@/components/SectionOne/SectionOne";
@@ -11,7 +12,7 @@ import SectionBakery from "@/components/SectionBakery/SectionBakery";
 import SectionDelivery from "@/components/SectionDelivery/SectionDelivery";
 import SectionCatering from "@/components/SectionCatering/SectionCatering";
 
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger, SplitText);
 
 export default function ScrollSection() {
   const triggerRef = useRef(null);
@@ -28,7 +29,7 @@ export default function ScrollSection() {
 
   useGSAP(() => {
     if (!containerRef.current || !triggerRef.current) return;
-
+    // @ts-expect-error
     const totalWidth = containerRef.current.scrollWidth;
     const scrollDistance = totalWidth - window.innerWidth;
 
@@ -51,7 +52,7 @@ export default function ScrollSection() {
       },
     });
 
-    return () => ScrollTrigger.getAll().forEach(t => t.kill());
+    return () => ScrollTrigger.getAll().forEach((t) => t.kill());
   }, []);
 
   return (

@@ -5,7 +5,7 @@ import AnimatedButton from "../AnimatedButton/AnimatedButton";
 
 function Hero() {
   return (
-    <div className="w-screen h-screen bg-purple pt-10 flex flex-nowrap border-2 border-violet">
+    <div className="w-screen h-screen max-h-[80vh] bg-purple pt-10 flex flex-nowrap border-2 border-violet">
       <div
         className="relative inline h-auto w-screen"
         style={{
@@ -18,7 +18,7 @@ function Hero() {
           <h1
             className={
               styles.text +
-              " font-header text-6xl md:text-8xl underline text-[#fff] md:p-8 rounded-sm text-left"
+              " font-header text-6xl md:text-8xl underline outline-none border-0 text-[#fff] md:p-8 rounded-sm font-thin text-left"
             }
           >
             Top 10 Best Restaurants by Bon Appétit
