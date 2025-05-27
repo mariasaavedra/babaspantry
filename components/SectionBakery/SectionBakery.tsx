@@ -7,14 +7,14 @@ export default function SectionBakery(props: SectionBakeryProps) {
   return (
     <SectionSlide
       title="Bakery"
-      arabicWord="مخبز"
+      // arabicWord="مخبز"
       imageSrc="/images/BP_9.webp"
       imageAlt="Baba's Pantry exterior with family"
       imagePosition="right"
       content={
         <>
           <Text>The word for bakery in Arabic is:</Text>
-          <Text className="text-4xl my-2 font-arabic">مخبز</Text>
+          <Text className="text-4xl my-2 font-arabic text-blue">مخبز</Text>
           <Text>
             Baba's Bakery is our sweet little extension of the Pantry. We're
             excited to share more of our Palestinian culture through our

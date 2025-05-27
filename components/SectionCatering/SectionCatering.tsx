@@ -9,7 +9,8 @@ export default function SectionCatering(props: SectionCateringProps) {
   return (
     <SectionSlide
       title="Catering"
-      arabicWord="تقديم الطعام"
+      arabicWord="التموين
+"
       content={
         <div className="relative flex flex-row">
           <Link
@@ -82,13 +83,13 @@ export default function SectionCatering(props: SectionCateringProps) {
               <p className="text-gray-600">Thank you!</p>
             </div>
           </Text>
-          <Image
+          {/* <Image
             src="/images/BP_3.jpeg"
             alt="Catering"
             width={300}
             height={100}
             className="mt-8 mx-auto  object-contain w-full max-w-md md:max-w-md"
-          />
+          /> */}
         </div>
       }
     />

@@ -6,7 +6,7 @@ export interface SectionDeliveryProps {}
 export default function SectionDelivery(props: SectionDeliveryProps) {
   return (
     <SectionSlide
-      title="Delivery"
+      title="Order Delivery"
       arabicWord="توصيل"
       imageSrc="/images/BP_10.webp"
       imageAlt="Delivery"
@@ -21,7 +21,7 @@ export default function SectionDelivery(props: SectionDeliveryProps) {
               href="https://www.order.store/store/babas-pantry-kansas-city/u28uODGzXwK-28I7PDWcDg"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center px-5 py-2.5 rounded-xl bg-green text-white text-sm font-medium transition-colors shadow-md hover:shadow-lg"
+              className="inline-flex items-center px-5 py-2.5 rounded-xl bg-green text-white text-sm font-medium transition-colors"
             >
               Uber Eats
             </Link>
@@ -29,7 +29,7 @@ export default function SectionDelivery(props: SectionDeliveryProps) {
               href="http://menus.fyi/7085328"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center px-5 py-2.5 rounded-xl bg-green text-white text-sm font-medium transition-colors shadow-md hover:shadow-lg"
+              className="inline-flex items-center px-5 py-2.5 rounded-xl bg-green text-white text-sm font-medium transition-colors"
             >
               Grubhub
             </Link>

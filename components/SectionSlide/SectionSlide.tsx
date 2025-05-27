@@ -29,7 +29,7 @@ export const SectionSlide: React.FC<SectionSlideProps> = ({
   const hasImage = Boolean(imageSrc);
 
   return (
-    <section className="w-screen h-screen flex flex-col md:flex-row overflow-hidden">
+    <section className="w-screen h-screen flex flex-col md:flex-row overflow-hidden relative">
       {/* Image Left */}
       {hasImage && isImageLeft && (
         <div className="md:w-1/2 w-full h-1/2 md:h-full overflow-hidden">
@@ -45,7 +45,7 @@ export const SectionSlide: React.FC<SectionSlideProps> = ({
       <div
         className={`${
           hasImage ? "md:w-1/2 w-full h-1/2 md:h-full" : "w-full h-full"
-        } bg-[#e4c8ec] px-16 flex flex-col justify-center items-start text-left space-y-6 ${contentClassName}`}
+        } bg-lilac px-16 flex flex-col justify-center items-start text-left space-y-6 ${contentClassName}`}
       >
         <header className="space-y-6">
           {inlineTitle ? (

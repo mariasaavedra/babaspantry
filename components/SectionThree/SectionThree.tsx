@@ -29,12 +29,13 @@ export default function SectionMenu(props: SectionThreeProps) {
     <SectionSlide
       title="Menu"
       subtitle=" Click on the menu below to explore a world of mouth-watering  flavors."
-      arabicWord="قائمة الطعام"
+      arabicWord="القائمة"
       imageSrc="/images/BP_5.jpeg"
       imageAlt="Baba's Pantry menu display"
       imagePosition="right"
+      contentClassName="pb-0"
       content={
-        <>
+        <section >
           <Text>
             <Button className=" bg-green py-2 font-thin px-4 rounded-full text-white">
               <Link href="/menu.pdf" passHref>
@@ -49,12 +50,12 @@ export default function SectionMenu(props: SectionThreeProps) {
               alt="Menu - Click to view PDF"
               width={500}
               height={500}
-              className="bottom-0 mt-8 mx-auto cursor-pointer hover:opacity-90 transition-opacity max-w-xs md:max-w-none"
+              className="relative bottom-[-10px] mt-8 mx-auto cursor-pointer hover:opacity-90 transition-opacity max-w-xs md:max-w-none"
             />
           </Link>
 
           <div ref={grubhubButtonRef} />
-        </>
+        </section>
       }
     />
   );
