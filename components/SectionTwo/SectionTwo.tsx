@@ -65,35 +65,61 @@ export default function SectionPress(props: SectionTwoProps) {
       inlineTitle
       contentClassName="!justify-start items-start pt-32"
       content={
-        <section className="grid grid-cols-1 md:grid-cols-4 gap-2">
-          {pressItems.map(({ title, desc, link, linkText, type }) => (
-            <div
-              key={title}
-              className="flex flex-col gap-4 p-4 rounded-2xl bg-white/10 backdrop-blur-sm"
-            >
-              <div>
-                <span className="text-xs uppercase tracking-wide text-neutral-500">
-                  {type}
-                </span>
-                <h3 className="text-2xl font-semibold mt-1 text-neutral-900">
-                  {title}
-                </h3>
-                <p className="mt-2 text-sm text-neutral-700 leading-relaxed">
-                  {desc}
-                </p>
-              </div>
-              <div className="mt-4">
-                <Button
-                  as={Link}
-                  href={link}
-                  target="_blank"
-                  className="text-sm text-blue-600 hover:underline underline-offset-4"
-                >
-                  {linkText} →
-                </Button>
-              </div>
-            </div>
-          ))}
+        <section className="flex flex-col md:flex-row gap-8 w-full">
+          <div className="flex-1">
+            <ul className="space-y-8">
+              {pressItems.slice(0, Math.ceil(pressItems.length / 2)).map(({ title, desc, link, linkText, type }) => (
+                <li key={title} className="border-b border-neutral-200 pb-8 last:border-b-0">
+                  <span className="text-xs uppercase tracking-wide text-neutral-500">
+                    {type}
+                  </span>
+                  <h3 className="text-2xl font-semibold mt-1 text-neutral-900">
+                    {title}
+                  </h3>
+                  <p className="mt-2 text-sm text-neutral-700 leading-relaxed">
+                    {desc}
+                  </p>
+                  <div className="mt-4">
+                    <Button
+                      as={Link}
+                      href={link}
+                      target="_blank"
+                      className="text-sm text-blue-600 hover:underline underline-offset-4"
+                    >
+                      {linkText} →
+                    </Button>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="flex-1">
+            <ul className="space-y-8">
+              {pressItems.slice(Math.ceil(pressItems.length / 2)).map(({ title, desc, link, linkText, type }) => (
+                <li key={title} className="border-b border-neutral-200 pb-8 last:border-b-0">
+                  <span className="text-xs uppercase tracking-wide text-neutral-500">
+                    {type}
+                  </span>
+                  <h3 className="text-2xl font-semibold mt-1 text-neutral-900">
+                    {title}
+                  </h3>
+                  <p className="mt-2 text-sm text-neutral-700 leading-relaxed">
+                    {desc}
+                  </p>
+                  <div className="mt-4">
+                    <Button
+                      as={Link}
+                      href={link}
+                      target="_blank"
+                      className="text-sm text-blue-600 hover:underline underline-offset-4"
+                    >
+                      {linkText} →
+                    </Button>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
         </section>
       }
     />
