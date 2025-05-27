@@ -112,18 +112,6 @@ body {
   -webkit-text-stroke-color: theme(colors.blue);
 }
 
-.split {
-  opacity: 0;
-  text-align: center;
-  color: rgb(14, 16, 15);
-  font-size: 2rem;
-  will-change: transform;
-  color: #0e100f;
-}
-
-.split * {
-  will-change: transform;
-}
 /* svg,  
 img {
   border: 1px solid #473851;
