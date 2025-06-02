@@ -5,7 +5,7 @@ import AnimatedButton from "../AnimatedButton/AnimatedButton";
 
 function Hero() {
   return (
-    <div className="w-screen h-screen max-h-[80vh] bg-purple pt-10 flex flex-nowrap border-2 border-violet">
+    <div className="w-screen h-screen  bg-purple pt-10 flex flex-nowrap border-2 border-violet">
       <div
         className="relative inline h-auto w-screen"
         style={{
